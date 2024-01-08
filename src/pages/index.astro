@@ -22,11 +22,11 @@ const title = "Ascent Web Studio"
     <div class="flex justify-center mb-14">
       <Picture
         src={headshot}
-        alt="My Headshot"
-        class="object-center rounded-md"
-        width={200}
-        height={330}
-        format="avif"
+        alt="Headshot"
+        class="mx-auto mb-14 mb-10 rounded-md"
+        width={headshot.width / 3}
+        densities={[1, 1.5, 2]}
+        formats={["webp", "avif", "jpg"]}
       />
     </div>
     <div>
