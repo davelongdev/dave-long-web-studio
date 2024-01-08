@@ -1,0 +1,16 @@
+---
+const { prevUrl, nextUrl } = Astro.props;
+---
+
+<nav class="flex justify-center">
+  {
+    prevUrl && (
+      <a class="py-1.5 px-2 border rounded-md bg-slate-400 m-2" href={prevUrl}>&lt&lt Previous</a>
+    )
+  }
+  {
+    nextUrl && (
+        <a class="py-1.5 px-2 border rounded-md bg-slate-400 m-2" href={nextUrl}>Next &gt&gt</a>
+    )
+  }
+</nav>

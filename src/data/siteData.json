@@ -1,0 +1,8 @@
+{
+  "title": "My Website & Blog",
+  "description": "Sample website & blog.  A basic template for many different kinds of sites.",
+  "image": {
+    "src": "/images/image-default.jpg",
+    "alt": "A desk with coffee"
+  }
+}

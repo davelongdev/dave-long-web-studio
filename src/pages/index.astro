@@ -1,0 +1,59 @@
+---
+// component import
+import MainLayout from "../layouts/MainLayout.astro";
+import PostCard from "../components/PostCard.astro";
+import { Image } from "astro:assets";
+import silhouette from "../assets/silhouette.svg";
+
+// utils imports
+import { formatBlogPosts } from "../js/utils";
+
+const allPosts = await Astro.glob("./blog/*.md");
+const formattedPosts = formatBlogPosts(allPosts, {
+  limit: 2, 
+});
+
+// page variables
+const title = "Website & Blog"
+---
+
+<MainLayout title={title} description="A sample website made with Astro and styled with Tailwind CSS">
+  <section>
+    <h1 class="text-center text-4xl my-14">{title}</h1>
+    <div class="flex justify-center mb-14">
+      <Image
+        src={silhouette}
+        alt="My Headshot"
+        class="object-center rounded-md"
+        width={200}
+        height={330}
+      />
+    </div>
+    <div>
+      <p class="text-xl px-10 mb-10 max-w-3xl mx-auto">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea cupiditate. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae illo optio ea quibusdam, laboriosam consequuntur libero, a eum eligendi eius quasi in exercitationem neque quas officiis? Eveniet facere magnam labore voluptates natus voluptatibus eum.
+      </p>
+      <div class="my-10 text-center">
+        <a 
+          class="py-1.5 px-2 my-8 border rounded-md bg-slate-400 self-center" 
+          href="/about/"
+        >Learn More
+        <a/>
+      </div>
+    </div>
+  </section>
+  <hr />
+  <section>
+    <h2 class="text-3xl py-3 my-5 border-box text-center">New Blog Posts</h2>
+    <div class="grid grid-cols-[1fr_35rem_1fr] lg:grid-cols-[1fr_25rem_25rem_1fr] lg:m-20 lg:gap-x-10 lg:[&>*:nth-child(odd)]:col-start-2 lg:[&>*:nth-child(even)]:col-start-3">
+      {
+        formattedPosts.map((post) => (
+          <PostCard
+            frontmatter={post.frontmatter}
+            url={post.url}
+          />
+        ))
+      }
+    </div>
+  </section>
+</MainLayout>

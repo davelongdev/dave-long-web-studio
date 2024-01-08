@@ -1,0 +1,32 @@
+---
+// utils imports
+import { slugify, formatDate } from "../js/utils";
+import { Image } from "astro:assets";
+
+const { tag, title, author, date, image } = Astro.props;
+const { src, alt } = image;
+
+const images = import.meta.glob<{ default: ImageMetadata }>('../assets/*.{jpeg,jpg,png,gif,svg}');
+if (!images[src]) throw new Error(`"${src}" does not exist in glob: "../assets/*.{jpeg,jpg,png,gif}"`);
+---
+
+<header>
+  <div class="flex flex-col items-center">
+    <div class="my-2 mx-3">
+      <a class="py-1.5 px-2 border rounded-md bg-slate-400" href={`/tags/${slugify(tag)}`}>{tag}</a>
+    </div>
+    <h1 class="text-lg font-medium m-3">{title}</h1>
+    <h2 class="text-lg m-3">
+      by <a href={`/author/${slugify(author)}`}>{author}</a> • {
+        formatDate(date)
+      }
+    </h2>
+  <Image
+    src={images[src]()}
+    alt={alt}
+    width={300}
+    height={150}
+    class="m-3 rounded-md max-w-full"
+  />
+  </div>
+</header>

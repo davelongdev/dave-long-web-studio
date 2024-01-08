@@ -1,0 +1,27 @@
+---
+// library import
+import { Icon } from "astro-icon/components";
+
+// data import
+import navData from "../data/navData";
+---
+
+<nav>
+  <div class="flex justify-between max-w-screen-2xl m-auto p-3 items-center">
+    <a href="/">
+      <Icon name="tabler:home" size="50" class="hover:text-gray-500"/>
+    </a>
+    <ul>
+      {
+        navData.map((item) => (
+          <a class="text-xl text-black hover:text-gray-500 px-3" href={item.path}>{item.name}</a>
+        ))
+      }
+    </ul>
+  </div>
+  <hr class="mb-2">
+</nav>
+
+<script>
+  import "../js/nav.js";
+</script>

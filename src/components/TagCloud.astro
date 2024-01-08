@@ -1,0 +1,30 @@
+---
+
+import { formatBlogPosts, slugify } from "../js/utils"
+
+const allPosts = await Astro.glob("../pages/blog/*.md");
+const formattedPosts = formatBlogPosts(allPosts, {});
+const allTags = formattedPosts.map((tg) => tg.frontmatter.tag.toLowerCase()).flat();
+
+const processedTags = allTags.reduce((acc, tag) => {
+  // check if the tag exists in the acc
+  const value = acc[tag] || 0;
+
+  return {
+    ...acc,
+    [tag]: value + 1
+  }
+}, {})
+
+const { showCount } = Astro.props;
+---
+
+<ul class="flex">
+  {
+    Object.entries(processedTags).map(([key, val]) => (
+    <li class="py-1.5 px-2 border rounded-md bg-slate-400 m-2">
+      <a href={`/tags/${slugify(key)}/`}>{key} {showCount && `(${val})`}</a>
+    </li>
+    ))
+  }
+</ul>

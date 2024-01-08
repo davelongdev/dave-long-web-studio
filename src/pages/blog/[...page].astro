@@ -1,0 +1,44 @@
+---
+// component import
+import MainLayout from "../../layouts/MainLayout.astro";
+import PostCard from "../../components/PostCard.astro";
+import TagCloud from "../../components/TagCloud.astro";
+import Pagination from "../../components/Pagination.astro";
+
+// utils imports
+import { formatBlogPosts } from "../../js/utils";
+
+export async function getStaticPaths({ paginate }) {
+  const allPosts = await Astro.glob("./*.md");
+  const formattedPosts = formatBlogPosts(allPosts, {});
+
+  return paginate(formattedPosts, {
+    pageSize: 4,
+  });
+}
+
+const { page } = Astro.props;
+---
+
+<MainLayout title="My Blog">
+  <section>
+    <h1 class="text-center text-4xl mt-10 mb-6">Blog Posts</h1>
+    <div class="grid grid-cols-[1fr_35rem_1fr] lg:grid-cols-[1fr_25rem_25rem_1fr] lg:m-20 lg:gap-x-10 lg:[&>*:nth-child(odd)]:col-start-2 lg:[&>*:nth-child(even)]:col-start-3">
+      {
+        page.data.map((post) => (
+          <PostCard
+            frontmatter={post.frontmatter}
+            url={post.url}
+          />
+        ))
+      }
+    </div>
+    <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
+  </section>
+  <aside class="flex justify-center">
+    <div class="flex justify-center flex-col">
+      <h2 class="text-xl block font-medium m-2 text-center">Tags</h2>
+      <TagCloud showCount={true}/>
+    </div>
+  </aside>
+</MainLayout>

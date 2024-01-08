@@ -1,0 +1,23 @@
+---
+import { Icon } from "astro-icon/components"
+---
+
+<footer class="mt-5">
+  <hr class="mb-5">
+  <div class="text-lg my-8">
+    <div class="flex justify-center my-1">
+      Copyright &copy  <span class="mr-2 ml-1" id="copyright"></span> | All rights reserved 
+    </div>
+    <div class="flex justify-center mb-5">
+      <a class="flex justify-center" href="/rss.xml">
+        Subscribe to RSS
+          <Icon class="ml-2" name="tabler:rss" width='20' height='20' />
+      </a>
+    </div>
+  </div>
+<footer />
+
+<script>
+document.querySelector("#copyright").textContent = new Date().getFullYear().toString()
+</script>
+

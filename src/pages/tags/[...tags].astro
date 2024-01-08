@@ -1,0 +1,46 @@
+---
+// component imports
+import MainLayout from "../../layouts/MainLayout.astro";
+import PostCard from "../../components/PostCard.astro";
+
+// utils
+import { slugify, formatBlogPosts } from "../../js/utils";
+
+export async function getStaticPaths() {
+  const allPosts = await Astro.glob("../blog/*.md");
+  const formattedPosts = formatBlogPosts(allPosts);
+  const allTags = [
+    ...new Set(formattedPosts.map((post) => post.frontmatter.tag).flat()),
+  ];
+  return allTags.map((tag) => {
+    const tagPosts = formattedPosts.filter((post) =>
+    post.frontmatter.tag === tag);
+    return {
+      params: { tags: slugify(tag) },
+      props: { 
+        tagName: tag,
+        posts: tagPosts,
+      }
+    }
+  })
+}
+
+const { posts, tagName } = Astro.props
+
+---
+
+<MainLayout title={tagName}>
+  <section>
+    <h1 class="text-3xl font-medium text-center mt-8 mb-12">Posts about {tagName}</h1>
+    <div class="grid grid-cols-[1fr_35rem_1fr] lg:grid-cols-[1fr_25rem_25rem_1fr] lg:m-20 lg:gap-x-10 lg:[&>*:nth-child(odd)]:col-start-2 lg:[&>*:nth-child(even)]:col-start-3">
+      {
+        posts.map((post) => (
+          <PostCard
+            frontmatter={post.frontmatter}
+            url={post.url}
+          />
+        ))
+      }
+    </div>
+  </section>
+</MainLayout>

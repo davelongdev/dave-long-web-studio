@@ -1,0 +1,63 @@
+---
+
+// component imports
+import PostHeader from "../components/PostHeader.astro";
+import TagCloud from "../components/TagCloud.astro";
+import MainLayout from "./MainLayout.astro";
+import RelatedPosts from "../components/RelatedPosts.astro";
+
+// utils imports
+import { formatBlogPosts } from "../js/utils";
+
+const { frontmatter } = Astro.props;
+const { title, description, date, tag, author, image } = frontmatter;
+
+const allPosts = await Astro.glob("../pages/blog/*.md");
+const formattedPosts = formatBlogPosts(allPosts, {
+  sortByDate: false,
+});
+
+const relatedPosts = formattedPosts
+  .filter(
+  (post) =>
+  post.frontmatter.tag.toLowerCase() === tag.toLowerCase() && post.frontmatter.title !== title
+)
+.slice(0,3);
+
+---
+
+<MainLayout
+  {title}
+  {description}
+  image={frontmatter.image}
+  {frontmatter}
+  robots={frontmatter.robots}
+>
+  <PostHeader
+    {title}
+    {description}
+    {date}
+    {tag}
+    {image}
+    {author}
+  />
+  <div>
+    <div class="prose-lg m-3 max-w-3xl mx-auto">
+      <slot/>
+    </div>
+    <div>
+      <aside class="flex flex-col items-center">
+        <h2 class="m-3 text-lg font-medium text-center">Tags</h2>
+        <TagCloud />
+      </aside>
+      {
+        relatedPosts.length > 0 && (
+          <aside class="flex flex-col items-center">
+            <h2 class="text-lg font-medium m-2">Related Posts</h2>
+            <RelatedPosts {relatedPosts} />
+          </aside>
+        )
+      }
+    </div>
+  </div>
+</MainLayout>
