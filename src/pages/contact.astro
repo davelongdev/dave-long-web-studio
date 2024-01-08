@@ -1,0 +1,37 @@
+---
+
+// component import
+import MainLayout from "../layouts/MainLayout.astro";
+import { Picture } from "astro:assets";
+import headshot from "../assets/headshot.jpg";
+
+// variables
+const title = "Contact"
+---
+<MainLayout title={title}>
+  <section>
+    <h1 class="text-center text-4xl my-14">{title}</h1>
+    <div class="flex justify-center mb-14">
+      <Picture
+        src={headshot}
+        alt="My Headshot"
+        class="object-center rounded-md"
+        width={200}
+        height={330}
+        format="avif"
+      />
+    </div>
+    <div>
+      <p class="text-xl px-10 mb-10 max-w-3xl mx-auto">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea cupiditate. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae illo optio ea quibusdam, laboriosam consequuntur libero, a eum eligendi eius quasi in exercitationem neque quas officiis? Eveniet facere magnam labore voluptates natus voluptatibus eum.
+      </p>
+      <div class="my-10 text-center">
+        <a
+          class="py-1.5 px-2 m-10 border rounded-md bg-slate-400"
+          href="mailto:davelongdev@gmail.com"
+          >Contact Me
+        <a />
+      </div>
+    </div>
+  </section>
+</MainLayout>
