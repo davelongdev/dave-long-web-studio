@@ -1,7 +1,6 @@
 ---
 // component imports
 import Seo from "../components/Seo.astro" 
-import SiteData from "../components/data/siteData.json"
 
 // props imports
 const { title, description, image, frontmatter, robots } = Astro.props;
@@ -12,8 +11,8 @@ const { title, description, image, frontmatter, robots } = Astro.props;
   <link rel="icon" type="image/svg+xml" href="/home.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content={Astro.generator} />
-  <title>{title}</title>
-  <meta name="description" content={description} />
+  <title>Ascent Web Studio</title>
+  <meta name="description" content="Ascent is a full-service web studio - Reach out if you need to build a website from scratch or if you need help optimizing your existing site." />
   <Seo    
   { title }
   { description }

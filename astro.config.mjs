@@ -5,6 +5,6 @@ import icon from "astro-icon"
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astro-blog-2.vercel.app',
+  site: 'https://ascentwebstudio.com',
   integrations: [sitemap(), tailwind(), icon()]
 });
