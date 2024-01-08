@@ -2,8 +2,8 @@
 // component import
 import MainLayout from "../layouts/MainLayout.astro";
 import PostCard from "../components/PostCard.astro";
-import { Image } from "astro:assets";
-import silhouette from "../assets/silhouette.svg";
+import { Picture } from "astro:assets";
+import headshot from "../assets/headshot.jpg";
 
 // utils imports
 import { formatBlogPosts } from "../js/utils";
@@ -20,12 +20,13 @@ const title = "Ascent Web Studio"
   <section>
     <h1 class="text-center text-4xl my-14">{title}</h1>
     <div class="flex justify-center mb-14">
-      <Image
-        src={silhouette}
+      <Picture
+        src={headshot}
         alt="My Headshot"
         class="object-center rounded-md"
         width={200}
         height={330}
+        format="avif"
       />
     </div>
     <div>

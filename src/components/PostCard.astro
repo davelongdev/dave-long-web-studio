@@ -2,7 +2,7 @@
 // utils imports
 import type { ImageMetadata } from 'astro';
 import { slugify, formatDate } from "../js/utils";
-import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 
 // props imports
 const { frontmatter, url, } = Astro.props;
@@ -15,12 +15,13 @@ if (!images[src]) throw new Error(`"${src}" does not exist in glob: "../assets/*
 <article class="border-2 rounded-md py-5 px-5 my-6 bg-slate-400 flex flex-col text-center justify-items-center col-start-2 col-end-3">
   <a class="py-1.5 px-2 border rounded-md" href={`/tags/${slugify(tag)}`}>{tag}</a>
   <a class="" href={url}>
-    <Image
+    <Picture
       class="my-4 rounded-md"
       src={images[src]()}
       alt={alt}
       width={400}
       height={250}
+      format="avif"
     />
   </a>
   <div>

@@ -2,20 +2,21 @@
 // component import
 import MainLayout from "../layouts/MainLayout.astro";
 import Link from "../components/Link.astro";
-import { Image } from "astro:assets";
-import silhouette from "../assets/silhouette.svg";
+import { Picture } from "astro:assets";
+import headshot from "../assets/headshot.jpg";
 ---
 
 <MainLayout title="About" description="About Page">
   <section>
     <div class="flex flex-col">
       <h1 class="text-center text-4xl my-10">About</h1>
-      <Image
-        src={silhouette}
+      <Picture
+        src={headshot}
         alt="Headshot"
-        class="mx-auto mb-14 mb-10"
+        class="mx-auto mb-14 mb-10 rounded-md"
         width={200}
         height={330}
+        format="avif"
       />
       <p class="text-xl px-10 pb-5 max-w-3xl mx-auto">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea cupiditate
@@ -26,7 +27,7 @@ import silhouette from "../assets/silhouette.svg";
       </p>
       <a
         class="py-1.5 px-2 m-10 border rounded-md bg-slate-400 self-center"
-        href="mailto:sample-email-address@gmail.com"
+        href="mailto:davelongdev@gmail.com"
         >Contact Me
       <a />
     </div>
