@@ -12,15 +12,14 @@ const images = import.meta.glob<{ default: ImageMetadata }>('../assets/*.{jpeg,j
 if (!images[src]) throw new Error(`"${src}" does not exist in glob: "../assets/*.{jpeg,jpg,png,gif}"`);
 ---
 
-<article class="border-2 rounded-md py-5 px-5 my-6 bg-slate-400 flex flex-col text-center justify-items-center col-start-2 col-end-3">
+<article class="border-2 rounded-lg py-5 px-5 my-6 bg-slate-400 text-center">
   <a class="py-1.5 px-2 border rounded-md" href={`/tags/${slugify(tag)}`}>{tag}</a>
-  <a class="" href={url}>
+  <a href={url}>
     <Picture
-      class="my-4 rounded-md"
+      class="my-6 rounded-lg mx-auto"
       src={images[src]()}
       alt={alt}
-      width={images[src]().width / 3}
-      densities={[1, 1.5, 2]}
+      width="420"
       formats={["webp", "avif", "jpg"]}
       />
   </a>

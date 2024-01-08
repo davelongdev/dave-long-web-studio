@@ -46,15 +46,17 @@ const title = "Ascent Web Studio"
   <hr />
   <section>
     <h2 class="text-3xl py-3 my-5 border-box text-center">New Blog Posts</h2>
-    <div class="grid grid-cols-[1fr_35rem_1fr] lg:grid-cols-[1fr_25rem_25rem_1fr] lg:m-20 lg:gap-x-10 lg:[&>*:nth-child(odd)]:col-start-2 lg:[&>*:nth-child(even)]:col-start-3">
-      {
-        formattedPosts.map((post) => (
-          <PostCard
-            frontmatter={post.frontmatter}
-            url={post.url}
-          />
-        ))
-      }
+    <div class="max-w-3xl mx-auto px-5">
+      <div class="grid">
+        {
+          formattedPosts.map((post) => (
+            <PostCard
+              frontmatter={post.frontmatter}
+              url={post.url}
+            />
+          ))
+        }
+      </div>
     </div>
   </section>
 </MainLayout>
