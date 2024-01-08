@@ -1,7 +1,6 @@
 ---
 // component import
 import MainLayout from "../layouts/MainLayout.astro";
-import Link from "../components/Link.astro";
 import { Picture } from "astro:assets";
 import headshot from "../assets/headshot.jpg";
 ---
@@ -14,9 +13,9 @@ import headshot from "../assets/headshot.jpg";
         src={headshot}
         alt="Headshot"
         class="mx-auto mb-14 mb-10 rounded-md"
-        width={200}
-        height={330}
-        format="avif"
+        width={headshot.width / 3}
+        densities={[1.5, 2]}
+        formats={["webp", "avif", "jpg"]}
       />
       <p class="text-xl px-10 pb-5 max-w-3xl mx-auto">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea cupiditate
