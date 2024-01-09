@@ -1,0 +1,10 @@
+---
+const { platform, username } = Astro.props;
+---
+
+<a
+  class="py-1.5 px-2 mx-2 border rounded-md bg-slate-400"
+  href={`https://www.${platform}.com/${username}`}
+>
+  {platform}
+</a>
