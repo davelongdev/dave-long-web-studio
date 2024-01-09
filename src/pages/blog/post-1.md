@@ -1,15 +1,15 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
-title: The Title of Post One
+title: Building a Blog and Website with Astro
 date: 2022-10-29
-author: Author One
+author: Dave Long
 image: {
   src: "../assets/image-default.jpg",
   alt: "A picture of a desk",
 }
-description: This is the description of the first blog post.
+description: What it's like to build a site with Astro.
 draft: false
-tag: Tag One
+tag: Astro
 ---
 
 Nisi duis ex aliqua eu officia eiusmod duis magna pariatur. Irure laborum qui aliqua nulla esse cillum laborum aliquip nulla elit. Id id Lorem duis irure cillum culpa. Nulla sint et aliqua velit do. Nulla sit sit proident consectetur enim ullamco aliqua in reprehenderit ullamco officia.
