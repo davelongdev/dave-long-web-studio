@@ -19,11 +19,11 @@ const title = "Ascent Web Studio"
 <MainLayout title={title}>
   <section>
     <h1 class="text-center text-4xl my-14">{title}</h1>
-    <div class="flex justify-center">
+    <div class="mx-4">
       <Picture
         src={headshot}
         alt="Headshot"
-        class="mx-auto mb-14 mb-10 rounded-md"
+        class="mb-10 rounded-md mx-auto"
         width={headshot.width / 3}
         densities={[1, 1.5, 2]}
         formats={["webp", "avif", "jpg"]}
@@ -46,7 +46,7 @@ const title = "Ascent Web Studio"
   <hr />
   <section>
     <h2 class="text-3xl py-3 my-5 border-box text-center">New Blog Posts</h2>
-    <div class="max-w-3xl mx-auto px-5">
+    <div class="max-w-3xl mx-auto px-4">
       <div class="grid">
         {
           formattedPosts.map((post) => (

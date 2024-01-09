@@ -32,7 +32,7 @@ const { posts, authorName } = Astro.props;
 <MainLayout title={authorName}>
   <section>
     <h1 class="text-3xl font-medium text-center mt-8 mb-12">Posts by {authorName}</h1>
-    <div class="max-w-3xl mx-auto px-5">
+    <div class="max-w-3xl mx-auto px-4">
       <div class="grid">
         {
           posts.map((post) => (
