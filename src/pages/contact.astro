@@ -10,7 +10,7 @@ const title = "Contact"
 ---
 <MainLayout title={title}>
   <section>
-    <h1 class="text-center text-4xl my-14">{title}</h1>
+    <h1 class="text-center text-4xl my-20">{title}</h1>
     <div class="mx-4">
       <Picture
         src={headshot}
@@ -21,17 +21,10 @@ const title = "Contact"
         formats={["webp", "avif", "jpg"]}
       />
     </div>
-    <div>
+    <div class="my-36">
       <p class="text-xl px-10 mb-10 max-w-3xl mx-auto">
        Feel free to reach out if you're interested in discussing websites, web development, digital publishing, or design, or if you're interested in working together on a project. 
       </p>
-      <div class="my-10 text-center">
-        <a
-          class="py-1.5 px-2 m-10 border rounded-md bg-slate-400"
-          href="mailto:davelongdev@gmail.com"
-          >Contact Me
-        <a />
-      </div>
     </div>
   </section>
 </MainLayout>
