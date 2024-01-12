@@ -26,7 +26,7 @@ const title = "Contact"
        Feel free to reach out if you're interested in discussing websites, web development, digital publishing, or design, or if you're interested in working together on a project. 
       </p>
     </div>
-    <form action="https://form-processing.davelongdev.workers.dev" method="post" class="flex justify-center">
+    <form id="form" action="https://form-processing.davelongdev.workers.dev" method="post" class="flex justify-center">
       <div class="border border-black rounded-md p-6 mb-20">
         <h2 class="text-2xl text-center mt-2 mb-5">Contact Me</h2>
         <div class="my-2">
@@ -56,35 +56,31 @@ const title = "Contact"
 
 <script>
 
-// get form
-let form = document.querySelector('form');
 
-// set 'action' varialbe to the form's action - here the worker url
-let action = form.action;
-
-// set 'method' variable to the form's method - here 'post'
-let method = form.method;
-
-// create formdata object (different than regular js object)
-let fdObject = new FormData(form);
-
-// serialize formdata object into regular object
-let dataObj = {};
-for (let [key, value] of fdObject) {
-    if (dataObj[key] !== undefined) {
-        if (!Array.isArray(dataObj[key])) {
-            dataObj[key] = [obj[key]];
-        }
-        dataObj[key].push(value);
-    } else {
-        dataObj[key] = value;
-    }
-}
-
-console.log(dataObj)
+// console.log(dataObject);
+// let first = fdObject.get('email')
+// console.log(first);
 
 // listen for submit event
 form.addEventListener('submit', function (event) {
+
+  // get form
+  let form = document.querySelector('form');
+
+  // set 'action' varialbe to the form's action - here the worker url
+  let action = form.action;
+
+  // set 'method' variable to the form's method - here 'post'
+  let method = form.method;
+
+  // create formdata object (different than regular js object)
+  let fdObject = new FormData(form);
+
+  // serialize formdata object into regular object
+  let dataObject = {};
+  for (let [key, value] of fdObject) {
+      dataObject[key] = value;
+  }
 
   // prevent default form behavior, i.e., send post request to action url
   event.preventDefault();
@@ -95,7 +91,7 @@ form.addEventListener('submit', function (event) {
   // fetch request
   fetch(action, {
     method: method,
-    body: JSON.stringify(dataObj),
+    body: JSON.stringify(dataObject),
     headers: {
       'Content-type': 'application/json',
     }
