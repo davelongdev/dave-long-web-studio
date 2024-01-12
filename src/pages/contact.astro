@@ -65,6 +65,23 @@ let action = form.action;
 // set 'method' variable to the form's method - here 'post'
 let method = form.method;
 
+// create formdata object (different than regular js object)
+let fdObject = new FormData(form);
+
+// serialize formdata object into regular object
+let dataObj = {};
+for (let [key, value] of fdObject) {
+    if (dataObj[key] !== undefined) {
+        if (!Array.isArray(dataObj[key])) {
+            dataObj[key] = [obj[key]];
+        }
+        dataObj[key].push(value);
+    } else {
+        dataObj[key] = value;
+    }
+}
+
+
 // listen for submit event
 form.addEventListener('submit', function (event) {
 
@@ -77,7 +94,7 @@ form.addEventListener('submit', function (event) {
   // fetch request
   fetch(action, {
     method: method,
-    body: new formdata(form),
+    body: JSON.stringify(dataObj),
     headers: {
       'Content-type': 'application/json',
     }
