@@ -77,7 +77,7 @@ form.addEventListener('submit', function (event) {
   // fetch request
   fetch(action, {
     method: method,
-    body: JSON.stringify({new formdata(form)}),
+    body: new formdata(form),
     headers: {
       'Content-type': 'application/json',
     }
