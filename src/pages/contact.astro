@@ -26,7 +26,7 @@ const title = "Contact"
        Feel free to reach out if you're interested in discussing websites, web development, digital publishing, or design, or if you're interested in working together on a project. 
       </p>
     </div>
-    <form action="" class="flex justify-center">
+    <form action="https://form-processing.davelongdev.workers.dev" method="post" class="flex justify-center">
       <div class="border border-black rounded-md p-6 mb-20">
         <h2 class="text-2xl text-center mt-2 mb-5">Contact Me</h2>
         <div class="my-2">
@@ -48,7 +48,61 @@ const title = "Contact"
         <div class="text-center mt-3">
           <button id="submit" name="submit" type="submit" class="py-1.5 px-2 mx-2 border rounded-md bg-slate-400">Submit</button>
         </div>
+        <div id="statusElem"role=status></div>
       </div>
     </form>
   </section>
 </MainLayout>
+
+<script>
+
+// get form
+let form = document.querySelector('form');
+
+// set 'action' varialbe to the form's action - here the worker url
+let action = form.action;
+
+// set 'method' variable to the form's method - here 'post'
+let method = form.method;
+
+// listen for submit event
+form.addEventListener('submit', function (event) {
+
+  // prevent default form behavior, i.e., send post request to action url
+  event.preventDefault();
+
+  // update status element
+  statusElem.textContent = 'Sending your message...';
+
+  // fetch request
+  fetch(action, {
+    method: method,
+    body: new URLSearchParams(new FormData(form)).toString(),
+    headers: {
+      'Content-type': 'application/x-www-form-urlencoded',
+    }
+  }).then(function (response) {
+    if (response.ok) {
+       statusElem.textContent = 'Message sent.';
+       form.reset();
+    } else {
+       statusElem.textContent = 'Something went wrong. Please try again.';
+    }
+  });
+
+});
+
+</script>
+
+<!-- <script> -->
+<!--   fetch('https://form-processing.davelongdev.workers.dev').then(function (response) { -->
+<!--     if (response.ok) { -->
+<!--         return response.json(); -->
+<!--     } -->
+<!--     throw response.status; -->
+<!--     }).then(function (data) { -->
+<!--         console.log(data); -->
+<!--     }).catch(function (error) { -->
+<!--         console.warn(error); -->
+<!--     }); -->
+<!-- </script> -->
