@@ -92,8 +92,9 @@ form.addEventListener('submit', function (event) {
     }
   }).then(function (response) {
     if (response.ok) {
-       statusElem.textContent = 'Message sent.';
-       form.reset();
+      statusElem.textContent = 'Message sent.';
+      form.reset();
+      return response.json();  
     } else {
        statusElem.textContent = 'Something went wrong. Please try again.';
     }
