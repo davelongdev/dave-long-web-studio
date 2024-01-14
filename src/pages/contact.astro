@@ -70,13 +70,11 @@ form.addEventListener('submit', function (event) {
 
   // create formdata object (different than regular js object)
   let fdObject = new FormData(form);
+  console.log(fdObject)
 
   // serialize formdata object into regular object
-  let dataObject = {};
-  for (let [key, value] of fdObject) {
-      dataObject[key] = value;
-  }
-
+  let dataObject = Object.fromEntries(fdObject);
+  console.log(dataObject)
   // prevent default form behavior, i.e., send post request to action url
   event.preventDefault();
 
