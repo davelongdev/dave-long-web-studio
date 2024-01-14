@@ -98,7 +98,13 @@ form.addEventListener('submit', function (event) {
     } else {
        statusElem.textContent = 'Something went wrong. Please try again.';
     }
-  });
+  }).then(function (data) {
+    console.log(data);
+  }).catch(function (error) {
+    console.warn(error);
+});
+
+  ;
 
 });
 
