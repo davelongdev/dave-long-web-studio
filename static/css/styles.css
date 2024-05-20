@@ -62,11 +62,11 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 1em;
 	padding: 0;
 	word-wrap: break-word;
+	text-align: center;
 }
 
 h1 {
 	font-size: 2.2rem;
-	text-align: center;
 }
 
 
@@ -108,6 +108,26 @@ img {
 	column-gap: 1rem;
 }
 
+/* form container */
+
+.container-form {
+	margin: 20px;
+	padding: 15px;
+	border: 2px solid black;
+	border-radius: .5rem;
+	max-width: 25rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* form field */
+
+.field-form {
+	margin: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
 /* inline lists */
 
 .list-inline {
@@ -121,16 +141,15 @@ img {
 
 button {
 	background-color: #0088cc;
-	border: 0.125em solid #0088cc;
-	border-radius: 0.25em;
+	border: 0.125rem solid #0088cc;
+	border-radius: 0.25rem;
 	color: #ffffff;
-	display: inline-block;
-	font-size: 0.9375em;
+	font-size: 1rem;
 	font-weight: normal;
 	line-height: 1.2;
-	margin-right: 0.3125em;
-	margin-bottom: 0.3125em;
-	padding: 0.5em 0.6875em;
+	margin-right: 0.3125rem;
+	margin-bottom: 0.3125rem;
+	padding: 0.5em 0.6875rem;
 }
 
 button:hover,
@@ -138,4 +157,9 @@ button:active {
 	background-color: #f7f7f7;
 	border-color: #808080;
 	color: #272727;
+}
+
+.container-button {
+	display: flex;
+	justify-content: center;
 }
