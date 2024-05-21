@@ -1,10 +1,9 @@
 <hr>
 <br>
-<p>FOOTER CONTENT</p>
-
-{{ $var1 := "dog"}}
-{{ $var2 := "dog"}}
-
+<footer>
+	<p class="footer">&copy; {{ dateFormat "2006" now }} {{ .Site.Title }}</p>
+</footer>
+	
 {{ if eq .RelPermalink "/contact/" }}
 <script src="/js/form.js"></script>
 {{end}}

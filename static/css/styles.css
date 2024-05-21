@@ -88,10 +88,12 @@ h4 {
 
 /* images */
 
-img {
+.headshot {
 	padding: 1rem;
-	padding-top: 2rem;
+	padding-top: 0rem;
 	padding-bottom: 2rem;
+	max-width: 550px;
+	margin:auto;
 }
 
 /* main body */
@@ -135,6 +137,14 @@ img {
 	display: flex;
 	align-items: center;
 	column-gap: 1rem;
+}
+
+
+/* footer */
+
+.footer {
+	max-width: fit-content;
+	margin: auto;
 }
 
 /* buttons */
