@@ -2,6 +2,9 @@
 <br>
 <p>FOOTER CONTENT</p>
 
-{{ if eq .URL "/contact/" }}
-    <script src="/js/form.js"></script>
-{{ end }}
+{{ $var1 := "dog"}}
+{{ $var2 := "dog"}}
+
+{{ if eq .RelPermalink "/contact/" }}
+<script src="/js/form.js"></script>
+{{end}}
