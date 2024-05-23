@@ -6,6 +6,8 @@ draft = false
 
 # About
 
+<img src="/images/headshot.jpg" alt="headshot" class="headshot">
+
 I'm a computer programmer and a writer with an artistic eye. I'm focused on web development and building web sites.  I'm also a small business owner.
 
 <br>
@@ -19,4 +21,3 @@ This site is currently under construction and subject to change in the future. K
 <br>
 <br>
 
-<img src="/images/headshot.jpg" alt="headshot" class="headshot">
