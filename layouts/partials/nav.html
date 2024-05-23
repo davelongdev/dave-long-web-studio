@@ -1,9 +1,9 @@
 <header>
   <nav class='container-nav'>
-    <a href="{{ .Site.BaseURL }}">
+    <a href="{{ .Site.BaseURL }}" class="title-nav">
       {{ .Site.Title }}
     </a>
-    <ul class='list-inline'>
+    <ul class='list-nav'>
       {{ range.Site.Menus.main }}
       <li>
         <a href="{{ .URL }}">{{ .Name }}</a>
