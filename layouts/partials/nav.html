@@ -1,14 +1,18 @@
 <header>
   <nav class='container-nav'>
-    <a href="{{ .Site.BaseURL }}" class="title-nav">
-      {{ .Site.Title }}
-    </a>
-    <ul class='list-nav'>
-      {{ range.Site.Menus.main }}
-      <li>
-        <a href="{{ .URL }}">{{ .Name }}</a>
-      </li>
-      {{ end }}
-    </ul>
+    <div>
+      <a href="{{ .Site.BaseURL }}" class="title-nav">
+        {{ .Site.Title }}
+      </a>
+    </div>
+    <div>
+      <ul class='list-nav'>
+        {{ range.Site.Menus.main }}
+        <li>
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
   </nav>
 </header>
