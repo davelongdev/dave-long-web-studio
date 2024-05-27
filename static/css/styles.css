@@ -187,7 +187,7 @@ button {
 	line-height: 1.2;
 	margin-right: 0.3125rem;
 	margin-bottom: 0.3125rem;
-	padding: 0.5em 0.6875rem;
+	padding: 0.5rem 0.6875rem;
 }
 
 button:hover,
@@ -198,6 +198,7 @@ button:active {
 }
 
 .btn {
+	display: table;
 	background-color: #0088cc;
 	border: 0.125rem solid #0088cc;
 	border-radius: 0.25rem;
@@ -206,7 +207,7 @@ button:active {
 	font-weight: normal;
 	line-height: 1.2;
 	margin: auto;
-	padding: 0.5em 0.6875rem;
+	padding: 0.5rem 0.6875rem;
 }
 
 .btn:hover,
