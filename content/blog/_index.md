@@ -1,5 +1,5 @@
 +++
-title = 'Blog'
+title = 'Web Studio Blog'
 date = 2024-05-07T09:22:17-04:00
 description = 'blog description'
 draft = false
@@ -12,3 +12,11 @@ Welcome to my blog!  It's a work in progres at the moment.  I should have some t
 <br>
 
 I'm planning to write about things like web development, making web sites, web site builders, web site performance, and tools for making websites.
+
+<br>
+
+{{< taxonomy-links >}}
+
+<br>
+
+## Blog Posts
