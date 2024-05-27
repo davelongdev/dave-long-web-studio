@@ -69,24 +69,30 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 2.2rem;
+	line-height: 1.4rem;
+	line-height: 2.6rem;
 }
 
 
 h2 {
 	font-size: 1.8rem;
 	text-align: left;
+	line-height: 2.2rem;
 }
 
 h3 {
 	font-size: 1.6rem;
+	line-height: 2rem;
 }
 
 h4 {
 	font-size: 1.4rem;
+	line-height: 1.8rem;
 }
 
 h4 {
 	font-size: 1.3rem;
+	line-height: 1.7rem;
 }
 
 .h2-centered {
@@ -121,10 +127,12 @@ main {
 
 .container-nav-title {
 	margin: auto;
+	padding-bottom: .7rem;
 }
 
 .container-nav-list {
 	margin: auto;
+	text-align: center;
 }
 
 .list-nav {
