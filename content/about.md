@@ -12,7 +12,7 @@ I'm a computer programmer and a writer with an artistic eye. I'm focused on web 
 
 <br>
 
-I'm interested in using my skills and background to help others start a new business or scale up an existing one by developing a presense on the internet.
+I'm interested in using my skills and background to help others start a new business or scale up an existing one by developing their presense on the internet.
 
 <br>
 
