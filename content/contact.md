@@ -1,6 +1,7 @@
 +++
 title = 'Contact'
 date = 2024-05-06T20:27:15-04:00
+description = 'contact description'
 draft = false
 type = 'contact'
 +++

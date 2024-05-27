@@ -7,6 +7,14 @@ languageCode = 'en-us'
 # the site's title
 title = 'Dave Long Web Studio'
 
+# the site's main description
+description = 'home page description'
+
+# custom parameters
+[params] 
+  description = 'home page description'
+
+# menu items
 [menu]
 
   [[menu.main]]
@@ -33,5 +41,6 @@ title = 'Dave Long Web Studio'
     url = "/contact"
     weight = 40
 
-  [markup.goldmark.renderer]
+# allow markup to include html elements
+[markup.goldmark.renderer]
   unsafe = true

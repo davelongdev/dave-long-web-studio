@@ -1,6 +1,7 @@
 +++
 title = 'About'
 date = 2024-05-07T09:08:25-04:00
+description = 'about page description'
 draft = false
 +++
 
