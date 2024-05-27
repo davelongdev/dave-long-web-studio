@@ -197,6 +197,26 @@ button:active {
 	color: #272727;
 }
 
+.btn {
+	background-color: #0088cc;
+	border: 0.125rem solid #0088cc;
+	border-radius: 0.25rem;
+	color: #ffffff;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1.2;
+	margin-right: 0.3125rem;
+	margin-bottom: 0.3125rem;
+	padding: 0.5em 0.6875rem;
+}
+
+.btn:hover,
+.btn:active {
+	background-color: #f7f7f7;
+	border-color: #808080;
+	color: #272727;
+}
+
 .blog-title {
 	margin-bottom: 0.8px;
 }
