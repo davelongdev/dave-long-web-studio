@@ -18,3 +18,5 @@ I'm interested in using my skills and background to help others start a new busi
 <br>
 
 This site is currently under construction and subject to change in the future. Keep an eye out for upcoming features and updates!
+<br/>
+<br/>
