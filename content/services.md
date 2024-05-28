@@ -5,7 +5,7 @@ description = 'services description'
 draft = false
 +++
 
-# Services
+<h1 class='txt-center'>Services</h1> 
 
 <br>
 

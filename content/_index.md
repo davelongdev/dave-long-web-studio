@@ -5,7 +5,7 @@ description = 'homepage description'
 draft = false
 +++
 
-# Dave Long Web Studio 
+<h1 class='txt-center'>Dave Long Web Studio</h1> 
  
 <img src="/images/headshot.jpg" alt="headshot" class="headshot"/>
 

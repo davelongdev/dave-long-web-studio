@@ -19,4 +19,4 @@ I'm planning to write about things like web development, making web sites, web s
 
 <br>
 
-## Blog Posts
+<h2 class='txt-center'>Blog Posts</h2> 

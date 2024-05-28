@@ -5,7 +5,7 @@ description = 'about page description'
 draft = false
 +++
 
-# About
+<h1 class='txt-center'>About</h1> 
 
 <img src="/images/headshot.jpg" alt="headshot" class="headshot">
 

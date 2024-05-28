@@ -5,7 +5,7 @@ description = 'contact description'
 draft = false
 type = 'contact'
 +++
-# Contact
+<h1 class='txt-center'>Contact Me</h1> 
 
 <br>
 
