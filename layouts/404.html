@@ -3,14 +3,19 @@
 <h1 class='txt-center'>404 Error</h1>
 <h2 class='txt-center'>Page not Found</h2>
 
+<br>
 <p>Sorry!  The page you're looking for cannot be found.</p>
 <br>
 <p>Please try again. Thanks!</p>
 <br> 
-<div class="btn">
-    <a href="{{ .Site.Home.RelPermalink }}">
+<div>
+    <a 
+      href="{{ .Site.Home.RelPermalink }}"
+    class="btn btn-center"
+    >
       Return to the home page
     </a>
 </div>
 <br> 
+
 {{ end }}

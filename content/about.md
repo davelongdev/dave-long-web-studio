@@ -7,7 +7,7 @@ draft = false
 
 <h1 class='txt-center'>About</h1> 
 
-<img src="/images/headshot.jpg" alt="headshot" class="headshot">
+{{< headshot >}}
 
 I'm a computer programmer and a writer with an artistic eye. I'm focused on web development and building web sites.  I'm also a small business owner.
 

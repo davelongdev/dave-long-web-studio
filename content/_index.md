@@ -6,8 +6,8 @@ draft = false
 +++
 
 <h1 class='txt-center'>Dave Long Web Studio</h1> 
- 
-<img src="/images/headshot.jpg" alt="headshot" class="headshot"/>
+
+{{< headshot >}}
 
 Welcome to Dave Long Web Studio - A new web design and development business located in the Hudson Valley in New York. I'm Dave Long - the founder and owner. I'd be happy to work with you if you need a web site built or if you need some work done on your existing site. I'm open to projects such as site performance and SEO optomization, web site design and layout, and copywriting and content generation.
 <br/>
