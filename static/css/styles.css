@@ -48,6 +48,12 @@ a:hover {
   text-decoration: underline;
 }
 
+/* when you click on it */
+a:active {
+  color: blue;
+  text-decoration: underline;
+  background: none;
+}
 /* paragraph */
 
 p {
