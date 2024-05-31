@@ -14,9 +14,6 @@ form.addEventListener('submit', function (event) {
   let fdObject = new FormData(form);
   // console.log(fdObject)
 
-  // serialize formdata object into regular object
-  let dataObject = Object.fromEntries(fdObject);
-  // console.log(dataObject)
   // prevent default form behavior, i.e., send post request to action url
   event.preventDefault();
 
@@ -26,10 +23,7 @@ form.addEventListener('submit', function (event) {
   // fetch request
   fetch(action, {
     method: method,
-    body: JSON.stringify(dataObject),
-    headers: {
-      'Content-type': 'application/json',
-    }
+    body: fdObject,
   }).then(function (response) {
     if (response.ok) {
       statusElem.textContent = 'Message sent.';
@@ -42,8 +36,6 @@ form.addEventListener('submit', function (event) {
     console.log(data);
   }).catch(function (error) {
     console.warn(error);
-});
-
-  ;
+  });
 
 });
