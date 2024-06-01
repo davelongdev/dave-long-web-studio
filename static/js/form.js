@@ -4,7 +4,7 @@ form.addEventListener('submit', function (event) {
   // get form
   let form = document.querySelector('form');
 
-  // set 'action' varialbe to the form's action - here the worker url
+  // set 'action' varialbe to the form's action - here the url for a cloudflare worker api
   let action = form.action;
 
   // set 'method' variable to the form's method - here 'post'
@@ -12,7 +12,6 @@ form.addEventListener('submit', function (event) {
 
   // create formdata object (different than regular js object)
   let fdObject = new FormData(form);
-  // console.log(fdObject)
 
   // prevent default form behavior, i.e., send post request to action url
   event.preventDefault();
