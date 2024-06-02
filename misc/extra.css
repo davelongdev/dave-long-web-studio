@@ -9,6 +9,13 @@
     /* --border-radius: 30px; */
 /* unvisited link */
 
+#theme-toggle {
+  border-radius: 25%;
+  background: none;
+  padding: 4.5px;
+  border: 1.5px solid var(--color-text-light);
+}
+
 a:link {
   color: black;
   text-decoration: none;

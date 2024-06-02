@@ -255,3 +255,20 @@ button:active {
 		display: flex;
 		column-gap: 1rem;
 	}
+
+.sun {
+  fill: var(--color-text-light);
+}
+
+.moon {
+  fill: transparent;
+}
+
+.dark .sun {
+  fill: transparent;
+}
+
+.dark .moon {
+  fill: var(--color-text-dark);
+}
+
