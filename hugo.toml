@@ -9,6 +9,7 @@ title = 'Dave Long Web Studio'
 
 # the site's main description
 description = 'Building Web Sites: Web Development & Design, Content Generation, Copywriting, SEO & Performance Optimization, Accessibility.'
+
 # custom parameters
 [params] 
   description = 'home page description'
