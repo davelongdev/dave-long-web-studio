@@ -5,13 +5,15 @@
     </a>
   </div>
   <div class='container-nav-list'>
-    <ul class='list-nav'>
-      {{ range.Site.Menus.main }}
-      <li>
-        <a href="{{ .URL }}">{{ .Name }}</a>
-      </li>
-      {{ end }}
-    </ul>
+    <div class='container-nav-list-inner'>
+      <ul class='list-nav'>
+        {{ range.Site.Menus.main }}
+        <li class="list-item">
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
     <div class='container-nav-theme'>
       <label id="theme-toggle">
         <input type="checkbox"/>

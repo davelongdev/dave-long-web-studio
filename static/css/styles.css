@@ -254,8 +254,19 @@ input::before {
   flex-direction: column;
   margin: auto;
   text-align: center;
+  justify-content: space-between;
 }
 
+.list-nav {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  text-align: center;
+}
+
+.list-item {
+  padding: 0 .6rem;
+}
 .container-nav-title {
   margin: auto;
   margin-bottom: .4rem;
@@ -302,7 +313,7 @@ input::before {
 
   .container-nav-theme {
     padding-left: 1rem;
-    margin: 0;
+    margin: 0%;
   }
 
   .container-nav-title {
