@@ -8,6 +8,8 @@
   --color-white: #ffffff;
   --color-shadow: #0003;
   --color-focus-outline: dodgerblue;
+  --color-magenta: #de047c;
+  --color-orange: #f55f02;
 
   /* light mode */
   --color-background-light: #ffffff; 
@@ -192,6 +194,7 @@ img,
 video,
 svg {
     max-width: 100%;
+    border-radius: 35px;
 }
 
 img,
