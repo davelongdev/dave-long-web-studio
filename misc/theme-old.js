@@ -24,10 +24,6 @@ const handleToggleClick = () => {
   localStorage.setItem("theme", isDark ? "dark" : "light");
 };
 
-if (theme === 'dark') {
-    document.querySelector('#theme-toggle input').checked = true;
-}
-
 document
   .getElementById("theme-toggle")
   .addEventListener("click", handleToggleClick);
