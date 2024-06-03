@@ -1,9 +1,14 @@
 <hr>
-<br>
 <footer>
 	<br>
-	<p class="footer">&copy; {{ dateFormat "2006" now }} {{ .Site.Title }}</p>
-	<br>
+		<div class="footer-main">
+			<p>&copy; {{ dateFormat "2006" now }} {{ .Site.Title }}</p>
+		</div>
+	<ul class="ul-centered">
+		<li class="footer-list">
+			<a href="mailto:davelongdev@gmail.com">davelongdev@gmail.com</a>
+		</li>
+	</ul>
 </footer>
 	
 <script src="/js/theme.js"></script>

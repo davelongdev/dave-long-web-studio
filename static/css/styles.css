@@ -423,7 +423,21 @@ button:active,
 
 /* footer */
 
-.footer {
+.ul-centered {
+  margin: 0%;
+}
+
+.footer-main {
   max-width: fit-content;
   margin: auto;
+  margin-bottom: .5rem;
+}
+
+.footer-list {
+  list-style: none;
+  max-width: fit-content;
+  margin: auto;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+  text-align: center;
 }
