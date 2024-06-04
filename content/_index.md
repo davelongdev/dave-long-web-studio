@@ -16,7 +16,7 @@ need some work done on your existing site.</p>
 
 <br>
 
-<p>I take on projects like these:</p> 
+<p>I'm available for projects like these:</p> 
 
 <br>
 
