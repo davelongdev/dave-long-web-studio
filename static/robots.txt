@@ -6,4 +6,5 @@ User-agent: *
 Allow: /
 
 # direct bots to the sitemap
+
 Sitemap: http://www.davelongwebstudio.com/sitemap.xml
