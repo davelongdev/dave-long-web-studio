@@ -1,17 +1,19 @@
 <nav class='container-nav'>
-  <div class='container-nav-title'>
-    <a href="{{ .Site.BaseURL }}" class="title-nav">
-      {{ .Site.Title }}
-    </a>
-  </div>
-  <div class='container-nav-list'>
-    <ul class='list-nav'>
-      {{ range.Site.Menus.main }}
-      <li class="list-items">
-        <a href="{{ .URL }}">{{ .Name }}</a>
-      </li>
-      {{ end }}
-    </ul>
+  <div class='container-nav-top'>
+    <div class='container-nav-title'>
+      <a href="{{ .Site.BaseURL }}" class="title-nav">
+        {{ .Site.Title }}
+      </a>
+    </div>
+    <div class='container-nav-list'>
+      <ul class='list-nav'>
+        {{ range.Site.Menus.main }}
+        <li class="list-items">
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
   </div>
   <div class='container-nav-theme-switch'>
     <label id="theme-toggle" aria-label="Toggle Dark Mode Color Theme">
