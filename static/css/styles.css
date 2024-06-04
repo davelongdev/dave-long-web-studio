@@ -151,17 +151,18 @@ textarea::placeholder {
 
 a {
   color: var(--color-text-light);
+  border-color: var(--color-background-dark);
   text-decoration: none;
 }
 
 .dark a {
-    border-color: var(--color-text-dark);
-    color: var(--color-text-dark);
+  color: var(--color-text-dark);
+  border-color: none;
 }
 
 .dark .nav-links {
-    border-color: var(--color-text-dark);
-    color: var(--color-text-dark);
+  border-color: var(--color-text-dark);
+  color: var(--color-text-dark);
 }
 
 /* tab selected links */
@@ -172,17 +173,16 @@ a:focus-visible {
   border-radius: .5rem;
 }
 
-/* mouse over link */
-a:hover {
-  color: var(--color-grey-dark);
+/* mouse over link & when you click or hold */
+a:hover,
+a:active {
+  border-color: var(--color-text-light);
   text-decoration: underline;
 }
 
-/* when you click on it */
-a:active {
-  color: var(--color-grey-dark);
-  text-decoration: underline;
-  background: none;
+.dark a:hover,
+.dark a:active {
+  border-color: var(--color-text-dark);
 }
 
 /* images */
@@ -359,7 +359,7 @@ button,
 .btn {
   background-color: var(--color-primary);
   border: 0.125rem solid var(--color-primary);
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   color: var(--color-white);
   font-size: 1rem;
   font-weight: normal;
@@ -369,17 +369,18 @@ button,
   padding: 0.5rem 0.6875rem;
 }
 
-.dark button {
-  border-color: var(--color-text-dark);
+.dark button,
+.dark .btn {
+  border-color: none;
 }
 
 button:hover,
 button:active,
 .btn:hover,
 .btn:active {
-  background-color: var(--color-white);
-  border-color: var(--color-grey-dark);
   color: var(--color-text-light);
+  background-color: var(--color-white);
+  border-color: var(--color-text-light);
   text-decoration: none;
 }
 
@@ -389,18 +390,12 @@ button:active,
 }
 
 .dark button:hover,
-.dark .btn:hover,
 .dark button:active,
+.dark .btn:hover,
 .dark .btn:active {
   color: var(--color-text-light);
-  background-color: var(--color-white);
-}
-
-.btn:hover,
-.btn:active {
-  color: var(--color-text-light);
-  background-color: var(--color-white);
-  border-color: var(--color-grey-dark);
+  background-color: var(--color-text-dark);
+  border-color: var(--color-text-dark);
 }
 
 button:focus-visible,
