@@ -58,6 +58,10 @@ p {
   font-size: 1.2rem;
 }
 
+.txt-center {
+  text-align: center;
+}
+
 /* headings */
 
 h1, h2, h3, h4, h5, h6 {
@@ -91,10 +95,6 @@ h4 {
 h4 {
   font-size: 1.3rem;
   line-height: 1.7rem;
-}
-
-.txt-center {
-  text-align: center;
 }
 
 /* lists */
@@ -157,7 +157,6 @@ a {
 
 .dark a {
   color: var(--color-text-dark);
-  border-color: none;
 }
 
 .dark .nav-links {
@@ -209,7 +208,48 @@ video {
 
 /* nav */
 
+/* nav elements */
+
+.container-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-nav-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-nav {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  text-align: center;
+}
+
+.list-items {
+  padding: 0 .4rem;
+}
+
+.container-nav-theme {
+  min-width: 10rem;
+  margin: auto;
+}
+
+.list-nav {
+  list-style: none;
+}
+
+.title-nav {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
 /* theme toggle switch */
+
 #theme-toggle input {
   appearance: none;
   position: relative;
@@ -255,54 +295,14 @@ input:focus-visible {
   color: var(--color-text-dark);
 }
 
-/* nav elements */
-
-.container-nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.container-nav-top {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.list-nav {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  text-align: center;
-}
-
-.list-items {
-  padding: 0 .4rem;
-}
-
-.container-nav-theme {
-  min-width: 10rem;
-  margin: auto;
-}
-
-.list-nav {
-  list-style: none;
-}
-
-.title-nav {
-  font-weight: 600;
-  font-size: 1.3rem;
-}
-
 /* nav styles for tablet & desktop */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 775px) {
 
   /* nav container */
 
   .container-nav {
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: space-between;
     column-gap: 3rem;
@@ -317,7 +317,8 @@ input:focus-visible {
   }
 
   .container-nav-theme-switch {
-    margin: 0%;
+    display: flex;
+    justify-content: flex-end;
     min-width: 8rem;
   }
 
