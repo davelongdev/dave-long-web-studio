@@ -23,15 +23,15 @@ need some work done on your existing site.</p>
   <ul>
     <li>Building Websites from Scratch</li>
     <li>Updating and Expanding Web Sites</li>
-    <li>Optimizing Site Performance</li>
+    <li>General Web Site Consulting</li>
     <li>Site Migration</li>
-    <li>Search Engine Opiminzation</li>
+    <li>Optimizing Site Performance</li>
     <li>Website Design and Layout</li>
     <li>Copywriting and Content Generation</li>
-    <li>General Web Site Consulting</li>
+    <li>Search Engine Opiminzation</li>
   </ul>
 
-<p>Email me now to schedule a free initial consultation.</p> 
+<p class='txt-center'>Email me now to schedule a free initial consultation.</p> 
 
 <br>
 
