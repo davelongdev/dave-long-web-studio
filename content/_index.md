@@ -9,9 +9,37 @@ draft = false
 
 {{< headshot >}}
 
-Welcome to Dave Long Web Studio - A new web design and development business located in the Hudson Valley in New York. I'm Dave Long - the founder and owner. I'd be happy to work with you if you need a web site built or if you need some work done on your existing site. I'm open to projects such as site performance and SEO optomization, web site design and layout, and copywriting and content generation.
-<br/>
-<br/>
-This site is currently under construction and subject to change in the future. Keep an eye out for upcoming features and updates!
-<br/>
-<br/>
+<p>Welcome to Dave Long Web Studio - A new web design and development business
+located in the Hudson Valley in New York. I'm Dave Long - the founder and
+owner. I'd be happy to work with you if you need a web site built or if you
+need some work done on your existing site.</p> 
+
+<p>I take on projects like these:</p> 
+
+<br>
+
+  <ul>
+    <li>Building Websites from Scratch</li>
+    <li>Updating and Expanding Web Sites</li>
+    <li>Optimizing Site Performance</li>
+    <li>Site Migration</li>
+    <li>Search Engine Opiminzation</li>
+    <li>Website Design and Layout</li>
+    <li>Copywriting and Content Generation</li>
+    <li>General Web Site Consulting</li>
+  </ul>
+
+<p>Email me now to schedule a free initial consultation.</p> 
+
+<br>
+
+<div>
+    <a 
+      href="mailto:davelongdev@gmail.com"
+    class="btn btn-center"
+    >
+      Email Me
+    </a>
+</div>
+
+<br>
