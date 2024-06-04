@@ -1,25 +1,23 @@
 <nav class='container-nav'>
-  <div class='container-nav-title nav-margins'>
+  <div class='container-nav-title'>
     <a href="{{ .Site.BaseURL }}" class="title-nav">
       {{ .Site.Title }}
     </a>
   </div>
   <div class='container-nav-list'>
-    <div class='container-nav-list-inner'>
-      <ul class='list-nav'>
-        {{ range.Site.Menus.main }}
-        <li class="list-item">
-          <a href="{{ .URL }}">{{ .Name }}</a>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-    <div class='container-nav-theme'>
-      <label id="theme-toggle" aria-label="Toggle Dark Mode Color Theme">
-        <span class="toggle-text">Light</span>
-        <input type="checkbox">
-        <span class="toggle-text">Dark</span>
-      </label>
-    </div>
+    <ul class='list-nav'>
+      {{ range.Site.Menus.main }}
+      <li class="list-items">
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  <div class='container-nav-theme-switch'>
+    <label id="theme-toggle" aria-label="Toggle Dark Mode Color Theme">
+      <span class="toggle-text">Light</span>
+      <input type="checkbox">
+      <span class="toggle-text">Dark</span>
+    </label>
   </div>
 </nav>
