@@ -14,6 +14,8 @@ located in the Hudson Valley in New York. I'm Dave Long - the founder and
 owner. I'd be happy to work with you if you need a web site built or if you
 need some work done on your existing site.</p> 
 
+<br>
+
 <p>I take on projects like these:</p> 
 
 <br>
