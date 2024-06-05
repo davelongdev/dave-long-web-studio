@@ -27,9 +27,9 @@ teaching.  I also have a wide variety of skills and interests.</p>
 
 <h2>Web Development and Computer Progremming</h2>
 
-<p>I've also studied and worked as a freelancer in computer programming and web
-development.  I've been focusing on front-end web development, which involves
-writing code that's applied to the what's called the 'front-end' of web sites -
+<p>I'm currently focused on working as a freelancer in computer programming and
+web development.  I've been focusing on front-end web development, which
+involves writing code that's applied to the what's called the 'front-end' of web sites -
 the aspects of web sites that people interact with on a daily basis.  Front end
 development primarily involves working with languages like javascript, html,
 and css, and I've spent a lot of time working with and learning about these
