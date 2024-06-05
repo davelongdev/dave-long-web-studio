@@ -30,24 +30,24 @@ teaching.  I also have a wide variety of skills and interests.</p>
 <p>I'm currently focused on working as a freelancer in computer programming and
 web development.  I've been focusing on front-end web development, which
 involves writing code that's applied to the what's called the 'front-end' of web sites -
-the aspects of web sites that people interact with on a daily basis.  Front end
+the aspects of web sites that people interact with on a daily basis.  Front-end
 development primarily involves working with languages like javascript, html,
 and css, and I've spent a lot of time working with and learning about these
 languages.  I'm also familiar with back-end development, which involves working
-with databases, networkin, and application programming interfaces or APIs.
+with databases, networking, and application programming interfaces or APIs.
 Back-end development often involves working
-with languages like python and go.</p> 
+with programming languages like python and go.</p> 
 
 
 <br>
 
 <h2>Writing</h2>
 
-<p>I have been writing in English all my life.  I grew up speaking english as a
+<p>I've been writing in English all my life.  I grew up speaking english as a
 first language.  In college, I majored in philosphy and explored topics such as
 natrual language philosophy, mathematical logic, and philosophy of science.  I
 later went to law school and practiced law with a focus on legal research and
-writing. I also have expeience in writing english content for web sites. In my
+writing. I also have expeience in writing content web sites. In my
 spare time, I enjoy reading both fiction and non-fiction.</p> 
 
 <br/>
@@ -57,12 +57,12 @@ spare time, I enjoy reading both fiction and non-fiction.</p>
 <p>For the last few years, I've been running my own business teaching music
 lessons online and in person.  I built the business up though a lot of hard
 work and dedication, but it all started by making a website.  Although, I've
-gotten many students over the years through things like networking, word of
+gotten many students over the years through avenues like networking, word of
 mounth, and referrals, most of my students have found me online through my web
 site.  The process of scaling up this business has taught me the importance of
-building a presense on the web, and it has ispired me to help others build a
+building a presense on the web, and it has inspired me to help others build a
 new business or grow an existing one.  It has also given me the opportunity to
-work with the web and learn and work with the tools necessary to become
+work with the web and learn about and work with the tools necessary to become
 sucessful online.</p> 
 
 <br/>
