@@ -29,26 +29,39 @@ teaching.  I also have a wide variety of skills and interests.</p>
 
 <p>I'm currently focused on working as a freelancer in computer programming and
 web development.  I've been focusing on front-end web development, which
-involves writing code that's applied to the what's called the 'front-end' of web sites -
-the aspects of web sites that people interact with on a daily basis.  Front-end
-development primarily involves working with languages like javascript, html,
-and css, and I've spent a lot of time working with and learning about these
-languages.  I'm also familiar with back-end development, which involves working
-with databases, networking, and application programming interfaces or APIs.
-Back-end development often involves working
-with programming languages like python and go.</p> 
+involves writing code that's applied to the what's called the 'front end' of
+web sites - the aspects of web sites that people see and interact with on a daily
+basis.</p>
+
+<br>
+
+<p>Front-end development primarily involves working with languages
+like javascript, html, and css, and I've spent a lot of time working with and
+learning about these languages.  Css is used to shape the styling of a web page
+- things like colors, shapes, and text size.  Html is used to set up the
+structure of a page, e.g., by defining elements like headings, paragraphs, and
+lists.  Javascript is a programming language that can be used to add
+functionality and interactivity to a site.</p>
+
+<br>
+
+<p>I'm also familiar with back-end development, which involves working with
+databases, networking, and application programming interfaces or APIs. Back-end
+development often involves working with computer languages like python, php, and
+go.<p/>
 
 
 <br>
 
 <h2>Writing</h2>
 
-<p>I've been writing in English all my life.  I grew up speaking english as a
-first language.  In college, I majored in philosphy and explored topics such as
-natrual language philosophy, mathematical logic, and philosophy of science.  I
-later went to law school and practiced law with a focus on legal research and
-writing. I also have expeience in writing content web sites. In my
-spare time, I enjoy reading both fiction and non-fiction.</p> 
+<p>I've been writing in English all my life.  I grew up speaking english as my
+primary language.  In college, I majored in philosphy and explored topics such
+as natrual language philosophy and logic.  I later went to law school and
+practiced law with a focus on legal research and writing. I also have expeience
+writing content for web sites.  I've written articles and blog posts, for
+example, and I've developed the written content for entire sites. In my spare
+time, I enjoy reading both fiction and non-fiction.</p> 
 
 <br/>
 
@@ -59,11 +72,11 @@ lessons online and in person.  I built the business up though a lot of hard
 work and dedication, but it all started by making a website.  Although, I've
 gotten many students over the years through avenues like networking, word of
 mounth, and referrals, most of my students have found me online through my web
-site.  The process of scaling up this business has taught me the importance of
-building a presense on the web, and it has inspired me to help others build a
-new business or grow an existing one.  It has also given me the opportunity to
-work with the web and learn about and work with the tools necessary to become
-sucessful online.</p> 
+site.  The process of scaling this business up has taught me the importance of
+building a presense on the web, and it has inspired me to help others build and
+grow their businesses.  It has also given me the opportunity to work with the
+web and learn about and work with the tools necessary to become sucessful
+online.</p> 
 
 <br/>
 
