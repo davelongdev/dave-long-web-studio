@@ -62,6 +62,10 @@ p {
   text-align: center;
 }
 
+.txt-margin-bottom {
+  margin-bottom: .3rem;
+}
+
 /* headings */
 
 h1, h2, h3, h4, h5, h6 {
