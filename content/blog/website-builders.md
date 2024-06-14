@@ -4,7 +4,7 @@ date = 2024-06-14T09:43:38-04:00
 draft = false
 description = 'post 2 description'
 tags = ['Wix', 'Squarespace', 'Canva']
-categories = ['Getting Started', 'Website Builder']
+categories = ['Getting Started', 'Website Builders']
 +++
 
 <br>
