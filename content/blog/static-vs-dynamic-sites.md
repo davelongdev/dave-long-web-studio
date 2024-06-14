@@ -1,6 +1,6 @@
 +++
 title = 'Static vs. Dynamic Web Sites'
-date = 2024-06-14T19:31:25-04:00
+date = 2024-06-13T19:31:25-04:00
 draft = false
 description = 'post 1 description'
 tags = ['Static Site', 'Dynamic Site', 'Static Site Generator']
@@ -61,6 +61,8 @@ categories = ['Types of Web Sites', 'Getting Started']
 
 <p>A static site generator or SSG is a piece of software that facilitates the process of creating and managing a static
   site. SSGs provide, among other things, helpful automation and templating features.</p>
+
+<br>
 
 <p>Static site generators tend to be a bit technical and will usually require some knowledge of programming, computers,
   and computer networks. You don't need to be a professional computer programmer to use one, though. If you're
