@@ -7,11 +7,12 @@ draft = false
 
 <br>
 
-Welcome to my blog!  It's a work in progres at the moment.  I should have some time to start blogging soon.  
+<p>Welcome to my blog! It's a bit of a work in progres at the moment. Feel free to look around, and let me know if you
+  have any questions or anthing.</p>
 
 <br>
 
-I'm planning to write about things like web development, making web sites, web site builders, web site performance, and tools for making websites.
+I'll be writing about things like web development, making web sites, coding, accessability, web site builders, web site performance, and tools for making websites.
 
 <br>
 
