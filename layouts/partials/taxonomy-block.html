@@ -3,21 +3,24 @@
     {{ .Date.Format "January 2, 2006" }}
   </time>
 </p>
+
 <div>
   {{ if .Params.tags }}<strong style="margin-right: .2rem;">Tags:</strong> 
-    {{range .Params.tags}}
-      <a style="margin-right: .4rem;" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
-	{{ . }}
-      </a>
-    {{end}}
+    {{ range $key, $value := .Params.tags }}
+       <a style="margin-right: .1rem;" href="/tags/{{ $value | urlize }}">
+	 {{ $value }}</a>
+       {{ if ne $key (sub (len $.Params.tags) 1) }}&middot {{ else }}{{ end }}
+    {{ end }}
+
   {{end}}
 </div>
+
 <div>
   {{ if .Params.categories }}<strong style="margin-right: .2rem;">Categories:</strong>
-    {{range .Params.categories}}
-      <a style="margin-right: .4rem;" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">
-      {{ . }}
-    </a> 
-    {{end}}
+    {{ range $key, $value := .Params.tags }}
+       <a style="margin-right: .1rem;" href="/tags/{{ $value | urlize }}">
+	 {{ $value }}</a>
+       {{ if ne $key (sub (len $.Params.tags) 1) }}&middot; {{ else }}{{ end }}
+    {{ end }}
   {{end}}
 </div>
