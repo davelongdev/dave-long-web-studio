@@ -19,7 +19,7 @@
     {{ range $key, $value := .Params.categories }}
        <a style="margin-right: .1rem;" href="/tags/{{ $value | urlize }}">
 	 {{ $value }}</a>
-       {{ if ne $key (sub (len $.Params.tags) 1) }}&middot {{ else }}{{ end }}
+       {{ if ne $key (sub (len $.Params.categories) 1) }}&middot {{ else }}{{ end }}
     {{ end }}
   {{end}}
 </div>
