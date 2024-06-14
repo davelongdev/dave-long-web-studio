@@ -1,0 +1,66 @@
+<main>
+
+hello
+
+<h1 class="txt-center txt-margin-bottom">{{ .Title }}</h1>
+
+{{ .Content }}
+
+<br>
+
+{{ range.Data.Pages }}
+
+<article>
+  <h3 class="margin-bottom-sm">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </h2>
+  <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+    {{ .Date.Format "January 2, 2006" }}
+  </time>
+  <div>
+    {{ if .Params.tags }}<strong>Tags:</strong> 
+      {{range .Params.tags}}
+	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
+	  {{ . }}
+	</a> 
+      {{end}}
+    {{end}}
+  </div>
+  <div>
+    {{ if .Params.categories }}<strong>Categories:</strong>
+      {{range .Params.categories}}
+	<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">
+	{{ . }}
+      </a> 
+      {{end}}
+    {{end}}
+  </div>
+<br>
+  <br>
+</article>
+
+{{ end }}
+
+<hr>
+
+<br>
+
+<article class='taxonomy-links'>
+  <h2 class="txt-center">Tags and Categories</h2>
+  <p>Click on the links below to browse blog posts by category or tag.</p>
+  <br>
+  <ul>
+    <li>
+      <a class='' href="{{ $.Page.Site.Params.baseurl }}/tags">Tags</a>
+    </li>	
+    <li>
+      <a class='' href="{{ $.Page.Site.Params.baseurl }}/categories">Categories</a>
+    </li>	
+  </ul>
+</article>
+
+<br>
+
+<hr>
+
+</main>

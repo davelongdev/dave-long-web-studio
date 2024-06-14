@@ -13,9 +13,3 @@ draft = false
 I'll be writing about things like web development, making web sites, coding, accessability, web site builders, web site performance, and tools for making websites.
 
 <br>
-
-{{< taxonomy-links >}}
-
-<br>
-
-<h2 class='txt-center'>Blog Posts</h2> 
