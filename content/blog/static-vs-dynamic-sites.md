@@ -3,7 +3,7 @@ title = 'Static vs. Dynamic Web Sites'
 date = 2024-06-13T19:31:25-04:00
 draft = false
 description = 'post 1 description'
-tags = ['Static Site', 'Dynamic Site', 'Static Site Generator']
+tags = ['Static Sites', 'Dynamic Sites', 'Static Site Generators']
 categories = ['Types of Web Sites', 'Getting Started']
 +++
 
