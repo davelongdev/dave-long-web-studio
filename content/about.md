@@ -5,8 +5,6 @@ description = 'about page description'
 draft = false
 +++
 
-<h1 class='txt-center'>About</h1> 
-
 {{< headshot >}}
 
 <p>I'm a computer programmer and a writer with an artistic eye. I'm focused on

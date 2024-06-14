@@ -6,7 +6,6 @@ description = 'post 2 description'
 tags = ['Wix', 'Squarespace', 'Canva']
 categories = ['Getting Started', 'Website Builder']
 +++
-<h1 class='txt-center'>Website Builders</h1> 
 
 <br>
 

@@ -7,8 +7,6 @@ tags = ['Static Site', 'Dynamic Site', 'Static Site Generator']
 categories = ['Types of Web Sites', 'Getting Started']
 +++
 
-<h1 class='txt-center'>Static vs. Dynamic Web Sites</h1> 
-
 <br>
 
 <h2>What is a Static Web Site?</h2>
