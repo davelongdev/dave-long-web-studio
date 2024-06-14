@@ -31,7 +31,7 @@ need some work done on your existing site.</p>
     <li>Search Engine Opiminzation</li>
   </ul>
 
-<p class='txt-center'>Email me now to schedule a free initial consultation.</p> 
+<p class='txt-center'>Contact me now to schedule a free initial consultation.</p> 
 
 <br>
 

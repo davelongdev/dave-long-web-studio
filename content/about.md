@@ -80,7 +80,7 @@ online.</p>
 
 <br/>
 
-<p class='txt-center'>If you're interested in working together, send me and email.</p> 
+<p class='txt-center'>If you're interested in working together, get in touch.</p> 
 
 <br>
 
