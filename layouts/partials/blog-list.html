@@ -1,12 +1,14 @@
 <main>
 
-hello
-
 <h1 class="txt-center txt-margin-bottom">{{ .Title }}</h1>
 
 {{ .Content }}
 
+<hr>
+
 <br>
+
+<h2 class="txt-center txt-margin-bottom">Blog Posts</h2>
 
 {{ range.Data.Pages }}
 
@@ -58,9 +60,5 @@ hello
     </li>	
   </ul>
 </article>
-
-<br>
-
-<hr>
 
 </main>

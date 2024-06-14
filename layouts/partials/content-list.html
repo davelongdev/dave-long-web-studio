@@ -4,6 +4,36 @@
 
 {{ .Content }}
 
-<br>
+{{ range.Data.Pages }}
 
+<article>
+  <h3 class="margin-bottom-sm">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </h2>
+  <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+    {{ .Date.Format "January 2, 2006" }}
+  </time>
+  <div>
+    {{ if .Params.tags }}<strong>Tags:</strong> 
+      {{range .Params.tags}}
+	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
+	  {{ . }}
+	</a> 
+      {{end}}
+    {{end}}
+  </div>
+  <div>
+    {{ if .Params.categories }}<strong>Categories:</strong>
+      {{range .Params.categories}}
+	<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">
+	{{ . }}
+      </a> 
+      {{end}}
+    {{end}}
+  </div>
+  <br>
+  <br>
+</article>
+
+{{ end }}
 </main>
