@@ -11,16 +11,15 @@
 	 {{ $value }}</a>
        {{ if ne $key (sub (len $.Params.tags) 1) }}&middot {{ else }}{{ end }}
     {{ end }}
-
   {{end}}
 </div>
 
 <div>
   {{ if .Params.categories }}<strong style="margin-right: .2rem;">Categories:</strong>
-    {{ range $key, $value := .Params.tags }}
+    {{ range $key, $value := .Params.categories }}
        <a style="margin-right: .1rem;" href="/tags/{{ $value | urlize }}">
 	 {{ $value }}</a>
-       {{ if ne $key (sub (len $.Params.tags) 1) }}&middot; {{ else }}{{ end }}
+       {{ if ne $key (sub (len $.Params.tags) 1) }}&middot {{ else }}{{ end }}
     {{ end }}
   {{end}}
 </div>
