@@ -5,8 +5,6 @@ description = 'blog description'
 draft = false
 +++
 
-<br>
-
 <p>Welcome to my blog! It's a bit of a work in progres at the moment. Feel free to look around, and let me know if you
   have any questions or anthing.</p>
 

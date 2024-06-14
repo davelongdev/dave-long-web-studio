@@ -5,8 +5,6 @@ description = 'services description'
 draft = false
 +++
 
-<br>
-
 <h2>Web Site Builders</h2>
 
 <p>Many people make thier fist website using a website builder like Squarespace, Wix, or Canva. Services like these
