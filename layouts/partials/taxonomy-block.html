@@ -1,0 +1,23 @@
+<p><strong style="margin-right: .2rem;">Date:</strong>
+  <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+    {{ .Date.Format "January 2, 2006" }}
+  </time>
+</p>
+<div>
+  {{ if .Params.tags }}<strong style="margin-right: .2rem;">Tags:</strong> 
+    {{range .Params.tags}}
+      <a style="margin-right: .4rem;" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
+	{{ . }}
+      </a>
+    {{end}}
+  {{end}}
+</div>
+<div>
+  {{ if .Params.categories }}<strong style="margin-right: .2rem;">Categories:</strong>
+    {{range .Params.categories}}
+      <a style="margin-right: .4rem;" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">
+      {{ . }}
+    </a> 
+    {{end}}
+  {{end}}
+</div>

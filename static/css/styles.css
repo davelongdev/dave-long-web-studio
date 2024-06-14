@@ -66,6 +66,9 @@ p {
   padding-bottom: .8rem;
 }
 
+.underline {
+  text-decoration-line: underline;
+}
 /* headings */
 
 h1, h2, h3, h4, h5, h6 {
