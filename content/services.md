@@ -41,7 +41,6 @@ management system.</p>
 
 <p>If you're making a relatively small site, such as a marketing site for a small business, you may be best off with a static site.  Static sites can be very fast to load, especially if you use them in conjunction with a content delivery network like cloudflare.</p>
 
-
 <br>
 
 <p>If you're interested in building a static site with a static site generator like hugo or astro, please get in touch.</p>
