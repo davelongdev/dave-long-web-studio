@@ -35,7 +35,7 @@ building websites.</p>
 
 <br>
 
-<h2>What are the Pros and Cons of Website Builders</h2>
+<h2>What are the Pros and Cons of Website Builders?</h2>
 
 <p>One of the main reasons that people like website builders is that they allow you to build a website quickly and
 cheaply. Another reason you might want to use one is that they manage the technical side of the site for you, which
