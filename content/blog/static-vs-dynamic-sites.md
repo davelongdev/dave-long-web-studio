@@ -2,7 +2,7 @@
 title = 'Static vs. Dynamic Web Sites'
 date = 2024-06-13T19:31:25-04:00
 draft = false
-description = 'post 1 description'
+description = 'Learn the Basics of Static and Dynamic Web Sites'
 tags = ['Static Sites', 'Dynamic Sites', 'Static Site Generators']
 categories = ['Types of Web Sites', 'Getting Started']
 +++

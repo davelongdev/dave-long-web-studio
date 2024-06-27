@@ -1,7 +1,7 @@
 +++
 title = 'Web Studio Blog'
 date = 2024-05-07T09:22:17-04:00
-description = 'blog description'
+description = 'Dave Long Web Studio Blog: Writing about topics relating to Web Site Building, Development, and Design'
 draft = false
 +++
 

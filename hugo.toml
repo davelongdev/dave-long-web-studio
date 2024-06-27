@@ -7,12 +7,11 @@ languageCode = 'en-us'
 # the site's title
 title = 'Dave Long Web Studio'
 
-# the site's main description
-description = 'Building Web Sites: Web Development & Design, Content Generation, Copywriting, SEO & Performance Optimization, Accessibility.'
-
 # custom parameters
 [params] 
-  description = 'home page description'
+
+# the site's main description
+  description = 'Building Web Sites: Web Development & Design, Site Performance, Writing & Content Generation, SEO, & Accessibility.'
 
 # menu items
 [menu]

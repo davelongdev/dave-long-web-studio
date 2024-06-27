@@ -1,7 +1,7 @@
 +++
 title = 'Dave Long Web Studio'
 date = 2024-05-06T20:24:02-04:00
-description = 'homepage description'
+description = 'Building Web Sites: Web Development & Design, Content Generation, Copywriting, Site Performance, SEO, & Accessibility.'
 draft = false
 +++
 
