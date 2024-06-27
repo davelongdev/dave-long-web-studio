@@ -2,7 +2,7 @@
 title = 'Website Builders'
 date = 2024-06-14T09:43:38-04:00
 draft = false
-description = 'Learn the Basics about Website Builders.'
+description = 'Learn the Basics about Website Builders'
 tags = ['Wix', 'Squarespace', 'Canva']
 categories = ['Getting Started', 'Website Builders']
 +++
