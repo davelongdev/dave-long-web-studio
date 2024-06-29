@@ -7,26 +7,24 @@ draft = false
 
 {{< headshot >}}
 
-<p>Welcome to Dave Long Web Studio - A new web design and development business
+Welcome to Dave Long Web Studio - A new web design and development business
 located in the Hudson Valley in New York. I'm Dave Long - the founder and
 owner. I'd be happy to work with you if you need a web site built or if you
-need some work done on your existing site.</p> 
+need some work done on your existing site.
 
 <br>
 
-<p>I'm available for projects like these:</p> 
+I'm available for projects like these:
 
 <br>
 
-  <ul>
-    <li>Building Websites from Scratch</li>
-    <li>Updating and Expanding Web Sites</li>
-    <li>General Web Site Consulting & Advising</li>
-    <li>Site Migration</li>
-    <li>Optimizing Site Performance</li>
-    <li>Website Design and Layout</li>
-    <li>Copywriting and Content Generation</li>
-  </ul>
+  - Building Websites from Scratch</li>
+  - Updating and Expanding Web Sites</li>
+  - General Web Site Consulting & Advising</li>
+  - Site Migration</li>
+  - Optimizing Site Performance</li>
+  - Website Design and Layout</li>
+  - Copywriting and Content Generation</li>
 
 <p class='txt-center'>Contact me now to schedule a free initial consultation.</p> 
 
@@ -35,7 +33,7 @@ need some work done on your existing site.</p>
 <div>
     <a 
       href="mailto:davelongdev@gmail.com"
-    class="btn btn-center"
+      class="btn btn-center"
     >
       Email Me
     </a>
