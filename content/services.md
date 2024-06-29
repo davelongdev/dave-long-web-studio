@@ -60,3 +60,18 @@ can you put together writing for your site's various pages, any blog posts and a
 materials.</p>
 
 <br>
+
+<p class='txt-center'>Get in touch to schedule a free initial consultation.</p> 
+
+<br>
+
+<div>
+    <a 
+      href="mailto:davelongdev@gmail.com"
+    class="btn btn-center"
+    >
+      Email Me
+    </a>
+</div>
+
+<br>
