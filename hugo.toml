@@ -11,7 +11,7 @@ title = 'Dave Long Web Studio'
 [params] 
 
 # the site's main description
-  description = 'Building Web Sites: Web Development & Design, Site Performance, Writing & Content Generation, SEO, & Accessibility.'
+    description = 'Building Web Sites: Development, Design, and Writing for the Web.'
 
 # menu items
 [menu]

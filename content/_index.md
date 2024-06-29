@@ -1,7 +1,7 @@
 +++
 title = 'Dave Long Web Studio'
 date = 2024-05-06T20:24:02-04:00
-description = 'Building Web Sites: Web Development & Design, Content Generation, Copywriting, Site Performance, SEO, & Accessibility.'
+description = 'Building Web Sites: Development, Design, and Writing for the Web.'
 draft = false
 +++
 
@@ -26,7 +26,6 @@ need some work done on your existing site.</p>
     <li>Optimizing Site Performance</li>
     <li>Website Design and Layout</li>
     <li>Copywriting and Content Generation</li>
-    <li>Search Engine Opiminzation</li>
   </ul>
 
 <p class='txt-center'>Contact me now to schedule a free initial consultation.</p> 
