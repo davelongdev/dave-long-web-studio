@@ -21,7 +21,7 @@ need some work done on your existing site.</p>
   <ul>
     <li>Building Websites from Scratch</li>
     <li>Updating and Expanding Web Sites</li>
-    <li>General Web Site Consulting</li>
+    <li>General Web Site Consulting & Advising</li>
     <li>Site Migration</li>
     <li>Optimizing Site Performance</li>
     <li>Website Design and Layout</li>
