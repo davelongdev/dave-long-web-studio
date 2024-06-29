@@ -73,7 +73,7 @@ materials.
 <div>
     <a 
       href="mailto:davelongdev@gmail.com"
-    class="btn btn-center"
+      class="btn btn-center"
     >
       Email Me
     </a>
