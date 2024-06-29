@@ -7,65 +7,64 @@ draft = false
 
 {{< headshot >}}
 
-<p>I'm a computer programmer and a writer with an artistic eye. I'm focused on
-web development and building web sites.  I'm also a small business owner.</p>
+I'm a computer programmer and a writer with an artistic eye. I'm focused on
+web development and building web sites.  I'm also a small business owner.
 
 <br>
 
-<p>I'm interested in using my skills and background to help others start a new
+I'm interested in using my skills and background to help others start a new
 business or scale up an existing one by developing their presense on the
-internet.</p>
+internet.
 
 <br>
 
-<p>I have a broad background that encompasses working in tech, law, music, and
-teaching.  I also have a wide variety of skills and interests.</p> 
+I have a broad background that encompasses working in tech, law, music, and
+teaching.  I also have a wide variety of skills and interests.
 
 <br>
 
-<h2>Web Development and Computer Progremming</h2>
+## Web Development and Computer Progremming
 
-<p>I'm currently focused on working as a freelancer in computer programming and
+I'm currently focused on working as a freelancer in computer programming and
 web development.  I've been focusing on front-end web development, which
 involves writing code that's applied to the what's called the 'front end' of
 web sites - the aspects of web sites that people see and interact with on a daily
-basis.</p>
+basis.
 
 <br>
 
-<p>Front-end development primarily involves working with languages
+Front-end development primarily involves working with languages
 like javascript, html, and css, and I've spent a lot of time working with and
 learning about these languages.  Css is used to shape the styling of a web page
-- things like colors, shapes, and text size.  Html is used to set up the
+`-` things like colors, shapes, and text size.  Html is used to set up the
 structure of a page, e.g., by defining elements like headings, paragraphs, and
 lists.  Javascript is a programming language that can be used to add
-functionality and interactivity to a site.</p>
+functionality and interactivity to a site.
 
 <br>
 
-<p>I'm also familiar with back-end development, which involves working with
+I'm also familiar with back-end development, which involves working with
 databases, networking, and application programming interfaces or APIs. Back-end
 development often involves working with computer languages like python, php, and
-go.<p/>
-
+go.
 
 <br>
 
-<h2>Writing</h2>
+## Writing
 
-<p>I've been writing in English all my life.  I grew up speaking english as my
+I've been writing in English all my life.  I grew up speaking english as my
 primary language.  In college, I majored in philosphy and explored topics such
 as natrual language philosophy and logic.  I later went to law school and
 practiced law with a focus on legal research and writing. I also have expeience
 writing content for web sites.  I've written articles and blog posts, for
 example, and I've developed the written content for entire sites. In my spare
-time, I enjoy reading both fiction and non-fiction.</p> 
+time, I enjoy reading both fiction and non-fiction.
 
-<br/>
+<br>
 
-<h2>Music Teaching and Running a Business</h2>
+## Music Teaching and Running a Business
 
-<p>For the last few years, I've been running my own business teaching music
+For the last few years, I've been running my own business teaching music
 lessons online and in person.  I built the business up though a lot of hard
 work and dedication, but it all started by making a website.  Although, I've
 gotten many students over the years through avenues like networking, word of
@@ -74,7 +73,7 @@ site.  The process of scaling this business up has taught me the importance of
 building a presense on the web, and it has inspired me to help others build and
 grow their businesses.  It has also given me the opportunity to work with the
 web and learn about and work with the tools necessary to become sucessful
-online.</p> 
+online.
 
 <br/>
 
@@ -85,7 +84,7 @@ online.</p>
 <div>
     <a 
       href="mailto:davelongdev@gmail.com"
-    class="btn btn-center"
+      class="btn btn-center"
     >
       Email Me
     </a>
