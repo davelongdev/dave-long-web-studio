@@ -3,7 +3,7 @@ title = 'Website Builders'
 date = 2024-06-14T09:43:38-04:00
 draft = false
 description = 'Learn the Basics about Website Builders'
-tags = ['Wix', 'Squarespace', 'Canva']
+tags = ['Wix', 'Squarespace', 'Canva', 'Webflow']
 categories = ['Getting Started', 'Website Builders']
 +++
 
@@ -20,7 +20,7 @@ management, and SEO management.
 
 ## What are the Most Popular Website Builders?
 
-Some of the most populer website builders are Squarespace, Wix, and Shopify. Squarespace and Wix are more general and
+Some of the most populer website builders are Squarespace, Wix, Webflow, and Shopify. Squarespace and Wix are more general and
 allow you to build a variety of different kinds of sites. Shopify is more focused on helping people build online stores
 and ecommerce. If you plan on selling products online, Shopify might be a good choice for you.
 

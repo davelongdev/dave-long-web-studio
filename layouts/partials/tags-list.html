@@ -1,0 +1,21 @@
+<main>
+
+<h1 class="txt-center txt-margin-bottom">{{ .Title }}</h1>
+
+{{ .Content }}
+
+{{ range.Data.Pages }}
+
+<article>
+  <h3 class="margin-bottom-sm">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </h3>
+
+  {{ partial "taxonomy-block.html" . }}
+
+  <br>
+</article>
+
+{{ end }}
+
+</main>
