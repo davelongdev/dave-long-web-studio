@@ -17,7 +17,7 @@
 <div>
   {{ if .Params.categories }}<strong style="margin-right: .2rem;">Categories:</strong>
     {{ range $key, $value := .Params.categories }}
-       <a style="margin-right: .1rem;" href="/tags/{{ $value | urlize }}">
+       <a style="margin-right: .1rem;" href="/categories/{{ $value | urlize }}">
 	 {{ $value }}</a>
        {{ if ne $key (sub (len $.Params.categories) 1) }}&middot {{ else }}{{ end }}
     {{ end }}
