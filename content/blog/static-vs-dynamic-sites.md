@@ -4,7 +4,7 @@ date = 2024-06-13T19:31:25-04:00
 draft = false
 description = 'Learn the Basics of Static and Dynamic Web Sites'
 tags = ['Static Sites', 'Dynamic Sites', 'Static Site Generators']
-categories = ['Types of Web Sites', 'Getting Started']
+categories = ['Types of Websites', 'Getting Started']
 +++
 
 <br>
