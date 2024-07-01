@@ -9,7 +9,7 @@ draft = false
 
 Many people make thier fist website using a website builder like Squarespace, Wix, Webflow, or Canva. Services like
 these offer a web portal in which you can use existing templates and create a website without knowing any computer
-programming. Even so, sometimes it's nice to have some help or advice on things programming, writing content, website
+programming. Even so, sometimes it's nice to have some help or advice on things like programming, writing content, website
 design, search engine optimization (SEO), or website performance.
 
 <br>
