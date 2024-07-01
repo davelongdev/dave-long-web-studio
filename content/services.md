@@ -35,6 +35,14 @@ needed or desired.
 
 <br>
 
+Static sites are often built with Static Site Generators or SSGs. A static site generator is a software tool that helps
+with building and maintaining a static site. While you can build and maintain a static site using only HTML and CSS (and
+maybe a little Javascript), doing so can be time consuming and cumbersome as a site grows in size. That's where SSGs
+come in. Static site generators allow you to use templating and other tools to minimize the work required to manage a
+site. Some of the most popular SSGs right now include Astro, Eleventy(11ty), Hugo, Next.js, Gatsby, and Jekyll.
+
+<br>
+
 If you're interested in building a static site with a static site generator like Hugo, Astro, or Eleventy, or if your're
 interested in discussing a hybird site, please get in touch.
 
