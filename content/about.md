@@ -8,7 +8,7 @@ draft = false
 {{< headshot >}}
 
 I'm a computer programmer and a writer with an artistic eye. I'm focused on
-web development and building web sites.  I'm also a small business owner.
+web development and building websites.  I'm also a small business owner.
 
 <br>
 
@@ -28,7 +28,7 @@ teaching.  I also have a wide variety of skills and interests.
 I'm currently focused on working as a freelancer in computer programming and
 web development.  I've been focusing on front-end web development, which
 involves writing code that's applied to the what's called the 'front end' of
-web sites - the aspects of web sites that people see and interact with on a daily
+websites - the aspects of websites that people see and interact with on a daily
 basis.
 
 <br>
@@ -56,7 +56,7 @@ I've been writing in English all my life.  I grew up speaking english as my
 primary language.  In college, I majored in philosphy and explored topics such
 as natrual language philosophy and logic.  I later went to law school and
 practiced law with a focus on legal research and writing. I also have expeience
-writing content for web sites.  I've written articles and blog posts, for
+writing content for websites.  I've written articles and blog posts, for
 example, and I've developed the written content for entire sites. In my spare
 time, I enjoy reading both fiction and non-fiction.
 
