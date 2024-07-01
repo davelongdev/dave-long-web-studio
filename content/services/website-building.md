@@ -1,8 +1,9 @@
 +++
-title = 'Services'
+title = 'Web Site Building Services'
 date = 2024-05-08T11:40:42-04:00
-description = 'Dave Long Web Studio Services: Development, Design, and Writing for the Web.'
+description = 'Dave Long Web Studio: Website Building Services.'
 draft = false
+
 +++
 
 ## Web Site Builders
@@ -87,39 +88,8 @@ If you're interested in putting together a wordpress site and you'd like some he
 
 ## Custom Solutions
 
-I am available to discuss the various options with you, including building a custom or hybrid site, and I can help you
+I'm available to discuss the various options with you, including building a custom or hybrid site, and I can help you
 find the right solution to fit your needs. We can also talk about any customizations or fine-tuning that you may be
 interested in.
-
-<br>
-
-## Writing Services
-
-The writing on a website is usually a big part of the site's content. Content might also include thing like images,
-videos, and audio, but writing usually plays a key role on any site. The site's writing can set the tone of the site, help
-people get to know you or your business, and convey information about the products and services you offer. It can also
-be a big help with SEO. In fact, written text is the primarily thing that search engines like google use to make
-decisions about what search results to show for for any given search.
-
-<br>
-
-I'm an experienced writer, and I'd be happy to work with you to help you craft the written content on your site. I
-can you put together writing for your site's various pages, any blog posts and articles, and advertising and marketing
-materials.
-
-<br>
-
-<p class='txt-center'>Get in touch to schedule a free initial consultation.</p> 
-
-<br>
-
-<div>
-    <a 
-      href="mailto:davelongdev@gmail.com"
-      class="btn btn-center"
-    >
-      Email Me
-    </a>
-</div>
 
 <br>
