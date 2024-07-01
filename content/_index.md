@@ -19,8 +19,8 @@ I'm available for projects like these:
 <br>
 
   - Building Websites from Scratch</li>
-  - Updating and Expanding Web Sites</li>
-  - General Web Site Consulting & Advising</li>
+  - Updating and Expanding Websites</li>
+  - General Website Consulting & Advising</li>
   - Site Migration</li>
   - Optimizing Site Performance</li>
   - Website Design and Layout</li>
