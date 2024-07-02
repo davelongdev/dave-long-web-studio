@@ -31,7 +31,7 @@ to do some or most of the work on your site yourself or inhouse.
 
 <br>
 
-## Writing Services
+## Writing
 
 The writing on a website is usually a big part of the site's content. Content might also include thing like images,
 videos, and audio, but writing usually plays a key role on any site. The site's writing can set the tone of the site, help
