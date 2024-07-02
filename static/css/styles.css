@@ -350,6 +350,26 @@ input:focus-visible {
 
 }
 
+
+  /* taxonomy container */
+
+.taxonomy-cloud {
+  margin: auto;
+  max-width: 80vw;
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  justify-content: center;
+  border: 2px solid var(--color-text-dark);
+  padding-top: .75rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+.taxonomy-items {
+  margin: .5rem;
+}
+
 /* form container */
 
 .container-form {

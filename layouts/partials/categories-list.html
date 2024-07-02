@@ -11,35 +11,29 @@
 {{ if not (eq $var1 $var2) }}
 
   {{ range.Data.Pages }}
+
     <article>
-    <h3 class="margin-bottom-sm">
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </h3>
+
+      <h3 class="margin-bottom-sm">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h3>
+
     {{ partial "taxonomy-block.html" . }}
+
     <br>
+
     </article>
+
   {{ end }}
 
 {{ else}}
 
-  <div
-    style='
-      display: flex; 
-      flex-direction: row; 
-      flex-wrap: wrap; 
-      justify-content: space-evenly;
-      border: 2px solid var(--color-text-dark);
-      padding-top: 1.5rem;
-      padding-bottom: .5rem;
-      padding-right: 1rem;
-      padding-left: 1rem;
-      border-radius: 1rem;
-    '>
+  <div class='taxonomy-cloud'>
 
     {{ range.Data.Pages }}
-        <div style='margin-bottom: 1rem;'>
-          <a href="{{ .RelPermalink }}" class='btn'>{{ .Title }}</a>
-        </div>
+
+      <a href="{{ .RelPermalink }}" class='btn taxonomy-items'>{{ .Title }}</a>
+
     {{ end }}
   
   </div>
