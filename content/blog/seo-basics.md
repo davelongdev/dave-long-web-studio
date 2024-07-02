@@ -3,7 +3,7 @@ title = 'SEO Basics'
 date = 2024-07-02T10:04:28-04:00
 draft = false
 tags = ['Advertising', 'Marketing', 'Google Search']
-categories = ['Getting Started', 'Website Basics', 'SEO', 'Search Engine Optimization']
+categories = ['Getting Started', 'SEO', 'Website Basics', 'Search Engine Optimization']
 +++
 
 ## What is SEO?
