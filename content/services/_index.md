@@ -14,7 +14,7 @@ various technical tasks relating to websites.
 <br>
 
 If you'd like further information about the web site building services I offer, please follow this link: <a style='text-decoration: underline;' href={{<
-  relref "website-building">}}>Web Site Building Services</a>.
+  relref "website-building">}}>Website Building Services</a>.
 
 <br>
 
