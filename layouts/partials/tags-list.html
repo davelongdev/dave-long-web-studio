@@ -1,12 +1,17 @@
 <main>
 
-<h1 class="txt-center txt-margin-bottom">{{ .Title }}</h1>
-
-{{ .Content }}
-
-
 {{ $var1 := page.Title }}
 {{ $var2 := "Tags" }}
+
+<h1 class="txt-center txt-margin-bottom">{{ .Title }}</h1>
+
+{{ if not (eq $var1 $var2) }}
+
+  <p>Click on the links below to view articles with the <strong>{{ .Title }}</strong> tag.</p>
+
+{{ end }}
+
+{{ .Content }}
 
 {{ if not (eq $var1 $var2) }}
 
