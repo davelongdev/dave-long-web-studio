@@ -8,7 +8,7 @@ draft = false
 ## Building and Maintaining Web Sites
 
 I can help you build a website from scratch, update or maintain an existing site, or help with other varuios
-website-related tasks. I can assist you with site migrations, domain name selection & registrations, performance optimization, and other
+website-related tasks. I can assist you with site migrations, domain name selection & registration, performance optimization, and other
 various technical tasks relating to websites.
 
 <br>
