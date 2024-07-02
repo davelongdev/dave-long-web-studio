@@ -8,7 +8,7 @@ categories = ['Getting Started', 'SEO', 'Website Basics', 'Search Engine Optimiz
 
 ## What is SEO?
 
-SEO stands for search engine optimization.  It means optomizing your web site to improve how it shows up in search
+SEO stands for search engine optimization.  It means optimizing your web site to improve how it shows up in search
 results.  These days, at least in the US, the most important search engine by far is google, so the majority of your efforts
 when it comes to SEO for the US market should be focused on google search. 
 
@@ -84,9 +84,9 @@ business look and feel more professional and competant, whereas having a slow or
 
 ## How can I improve my Site's Performance?
 
-There are many ways to improve your site's performance. Often, one of the best ways to do so is by optomizing your
+There are many ways to improve your site's performance. Often, one of the best ways to do so is by optimizing your
 images. If your images are very large, that can impact your site performance score. Often, better site performance
-scores can be obtained by using image formats that are optomized for the web or have smaller file sizes. Another way to
+scores can be obtained by using image formats that are optimized for the web or have smaller file sizes. Another way to
 improve site performance is to minimize the size of other files like video or sound files.
 
 
