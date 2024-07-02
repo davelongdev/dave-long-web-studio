@@ -10,18 +10,12 @@ draft = false
 I'm a computer programmer and a writer with an artistic eye. I'm currently focused on web development and building
 websites. I'm also a small business owner.
 
-<br>
-
 I'm interested in using my skills and background to help others start a new
 business or scale up an existing business by developing their presense on the
 internet.
 
-<br>
-
 I have a broad background that encompasses working in tech, law, music, and
 teaching.  I also have a wide variety of skills and interests.
-
-<br>
 
 ## Web Development and Computer Progremming
 
@@ -31,8 +25,6 @@ involves writing code that's applied to the what's called the 'front end' of
 websites - the aspects of websites that people see and interact with on a daily
 basis.
 
-<br>
-
 Front-end development primarily involves working with languages
 like javascript, html, and css, and I've spent a lot of time working with and
 learning about these languages.  CSS is used to shape the styling of a web page
@@ -41,14 +33,10 @@ structure of a page, e.g., by defining elements like headings, paragraphs, and
 lists.  Javascript is a programming language that can be used to add
 functionality and interactivity to a site.
 
-<br>
-
 I'm also familiar with back-end web development, which involves working with
 databases, networking, and application programming interfaces or APIs. Back-end
 development often involves working with computer languages like python, php, and
 go.
-
-<br>
 
 ## Writing
 
@@ -57,8 +45,6 @@ philosphy and explored topics such as natrual language philosophy, reasoning and
 to law school and practiced law with a focus on legal research and writing. I also have expeience writing content for
 websites. I've written many different articles and blog posts, for example, and I've developed the written content for
 entire sites. In my spare time, I enjoy reading both fiction and non-fiction.
-
-<br>
 
 ## Music Teaching and Running a Business
 
@@ -69,11 +55,7 @@ me online through my web site. The process of scaling this business up has taugh
 presense on the web, and it has inspired me to help others build and grow their businesses. It has also given me the
 opportunity to work with the web and learn about and work with the tools necessary to become sucessful online.
 
-<br/>
-
 <p class='txt-center'>If you're interested in working together, get in touch.</p> 
-
-<br>
 
 <div>
     <a 
@@ -83,6 +65,3 @@ opportunity to work with the web and learn about and work with the tools necessa
       Email Me
     </a>
 </div>
-
-<br/>
-

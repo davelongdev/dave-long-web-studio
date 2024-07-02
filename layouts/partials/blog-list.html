@@ -1,14 +1,12 @@
 <main>
 
-<h1 class="txt-center txt-margin-bottom">{{ .Title }}</h1>
+<h1 class="txt-center">{{ .Title }}</h1>
 
 {{ .Content }}
 
-<hr>
+<hr style='margin-top: 1.5rem;'>
 
-<br>
-
-<h2 class="txt-center txt-margin-bottom">Blog Posts</h2>
+<h2 class="txt-center">Blog Posts</h2>
 
 {{ range.Data.Pages }}
 
@@ -19,19 +17,15 @@
 
   {{ partial "taxonomy-block.html" . }}
 
-  <br>
 </article>
 
 {{ end }}
 
-<hr>
-
-<br>
+<hr style="margin-top: 1.5rem;">
 
 <article class='taxonomy-links'>
   <h2 class="txt-center">Tags and Categories</h2>
   <p>Click on the links below to browse blog posts by category or tag.</p>
-  <br>
   <ul>
     <li>
       <a href="{{ $.Page.Site.Params.baseurl }}/tags">Tags</a>

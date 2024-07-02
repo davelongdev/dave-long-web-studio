@@ -11,12 +11,8 @@ I can help you build a website from scratch, update or maintain an existing site
 website-related tasks. I can assist you with site migrations, domain name selection & registration, performance optimization, and other
 various technical tasks relating to websites.
 
-<br>
-
 If you'd like further information about the web site building services I offer, please follow this link: <a style='text-decoration: underline;' href={{<
   relref "website-building">}}>Website Building Services</a>.
-
-<br>
 
 ## Consulting and Advising
 
@@ -24,12 +20,8 @@ There are many different ways to go about making a website these days. There are
 wix, static site generators, and content management systems like WordPress. I'm available to help you navigate the
 different options. I've built a number of websites myself, and I'm well-versed in the technical site of websites.
 
-<br>
-
 If you'd like someone on your team who's knowledgable about the technical aspects of websites, even if you're planning
 to do some or most of the work on your site yourself or inhouse.
-
-<br>
 
 ## Writing
 
@@ -39,17 +31,11 @@ people get to know you or your business, and convey information about the produc
 be a big help with SEO. In fact, written text is the primarily thing that search engines like google use to make
 decisions about what search results to show for for any given search.
 
-<br>
-
 I'm an experienced writer, and I'd be happy to work with you to help you craft the written content on your site. I
 can you put together writing for your site's various pages, any blog posts and articles, and advertising and marketing
 materials.
 
-<br>
-
 <p class='txt-center'>Get in touch to schedule a free initial consultation.</p> 
-
-<br>
 
 <div>
     <a 
@@ -59,5 +45,3 @@ materials.
       Email Me
     </a>
 </div>
-
-<br>

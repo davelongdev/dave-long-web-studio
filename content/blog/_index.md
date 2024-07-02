@@ -8,8 +8,4 @@ draft = false
 Welcome to my blog! It's a bit of a work in progres at the moment. Feel free to look around, and let me know if you have
 any questions or anthing.
 
-<br>
-
 I'll be writing about things like web development, making web sites, coding, accessability, web site builders, web site performance, and tools for making websites.
-
-<br>

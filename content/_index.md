@@ -12,11 +12,7 @@ located in the Hudson Valley in New York. I'm Dave Long - the founder and
 owner. I'd be happy to work with you if you need a web site built or if you
 need some work done on your existing site.
 
-<br>
-
 I'm available for projects like these:
-
-<br>
 
   - Building Websites from Scratch</li>
   - Updating and Expanding Websites</li>
@@ -28,8 +24,6 @@ I'm available for projects like these:
 
 <p class='txt-center'>Contact me now to schedule a free initial consultation.</p> 
 
-<br>
-
 <div>
     <a 
       href="mailto:davelongdev@gmail.com"
@@ -38,5 +32,3 @@ I'm available for projects like these:
       Email Me
     </a>
 </div>
-
-<br>
