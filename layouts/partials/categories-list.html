@@ -33,11 +33,14 @@
 
   <div class='taxonomy-cloud'>
 
-    {{ range.Data.Pages }}
+    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
 
-      <a href="{{ .RelPermalink }}" class='btn taxonomy-items'>{{ .Title }}</a>
+        <a 
+          href="{{ $name | urlize }}" 
+          class='btn taxonomy-items'
+        >{{ $name | humanize }} ({{ $taxonomy.Count }})</a>
 
-    {{ end }}
+    {{end}}
   
   </div>
 
