@@ -36,7 +36,7 @@
     {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
 
         <a 
-          href="{{ $name | urlize }}" 
+          href="/tags/{{ $name | urlize }}" 
           class='btn taxonomy-items'
         >{{ $name | humanize }} ({{ $taxonomy.Count }})</a>
 
