@@ -8,18 +8,24 @@
 
 <h2 class="txt-center">Blog Posts</h2>
 
-{{ range.Data.Pages }}
+{{ $pages := where site.RegularPages "Type" "blog" }}
+{{ $paginator := .Paginate $pages.ByTitle 3 }}
 
-<article>
-  <h3 class="margin-bottom-sm">
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </h3>
+{{ range $paginator.Pages }}
 
-  {{ partial "taxonomy-block.html" . }}
+  <article>
 
-</article>
+    <h3 class="margin-bottom-sm">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h3>
+
+    {{ partial "taxonomy-block.html" . }}
+
+  </article>
 
 {{ end }}
+
+{{ partial "paginate.html" . (dict "page" . "format" "default") }}
 
 <hr style="margin-top: 1.5rem;">
 
