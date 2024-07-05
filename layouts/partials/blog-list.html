@@ -13,7 +13,8 @@
 
 {{ range $paginator.Pages }}
 
-  <article class="blog-post-card">
+<div class='parent'>
+  <article class="blog-post-card child">
 
     <h3 class="margin-bottom-sm margin-top-none">
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
@@ -22,6 +23,7 @@
     {{ partial "taxonomy-block.html" . }}
 
   </article>
+</div>
 
 {{ end }}
 

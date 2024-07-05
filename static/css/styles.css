@@ -19,6 +19,7 @@
   /* dark mode new */
 
   --color-darkmode-bkgd-base: #1f1f1f;
+  --color-darkmode-bkgd-base-2: #262626;
   --color-darkmode-bkgd-shadow: #28283d;
   --color-darkmode-bkgd-primary: #1F1B24;
   --color-darkmode-bkgd-primary-2: #0e1924;
@@ -474,22 +475,46 @@ button:focus-visible,
 /* blog post card */
 
 .blog-post-card {
-  margin: 1rem;
+  /* margin: 1rem; */
+  margin: 3rem 0;
   padding: 1rem;
   border-radius: 20px;
 }
 
 .dark .blog-post-card {
-  margin: 1rem;
+  /* margin: 1rem; */
   padding: 1rem;
   border-radius: 20px;
-  border: 2px solid var(--color-text-dark);
-  background: var(--color-darkmode-bkgd-base);
-  box-shadow: 0px 10px 50px 10px #28283d;
+  /* border: 2px solid var(--color-text-dark); */
+  background: var(--color-darkmode-bkgd-base-2);
+  /* box-shadow: 0px 10px 50px 10px #28283d; */
 }
 
 .margin-top-none {
   margin: 0;
+}
+
+.parent {
+   position: relative;
+   z-index: 1;
+   border-radius: 20px;
+   box-shadow: 0px 5px 15px 10px var(--color-grey-light);
+}
+
+.child {
+  content: '';
+}
+        
+.child::after {
+   content: "";
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   position: absolute;
+   border-radius: 20px;
+   box-shadow: 0 20px 25px -5px #000, 0 8px 10px -6px #000;
+   z-index: -1;
 }
 
 /* pagination */
