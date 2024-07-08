@@ -62,6 +62,6 @@ opportunity to work with the web and learn about and work with the tools necessa
       href="mailto:davelongdev@gmail.com"
       class="btn btn-center"
     >
-      Email Me
+      Contact
     </a>
 </div>

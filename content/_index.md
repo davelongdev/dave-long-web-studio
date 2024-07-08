@@ -14,13 +14,14 @@ need some work done on your existing site.
 
 I'm available for projects like these:
 
-  - Building Websites from Scratch</li>
-  - Updating and Expanding Websites</li>
-  - General Website Consulting & Advising</li>
-  - Site Migration</li>
-  - Optimizing Site Performance</li>
-  - Website Design and Layout</li>
-  - Copywriting and Content Generation</li>
+  - Building Websites from Scratch
+  - Updating and Expanding Websites
+  - General Website Consulting & Advising
+  - Web Development & Computer Programming
+  - Site Migration
+  - Optimizing Site Performance
+  - Website Design and Layout
+  - Copywriting and Content Generation
 
 <p class='txt-center'>Contact me now to schedule a free initial consultation.</p> 
 
@@ -29,6 +30,6 @@ I'm available for projects like these:
       href="mailto:davelongdev@gmail.com"
       class="btn btn-center"
     >
-      Email Me
+      Contact
     </a>
 </div>
