@@ -18,7 +18,7 @@ If you'd like further information about the web site building services I offer, 
 
 There are many different ways to go about making a website these days. There are website builders like squarespace and
 wix, static site generators, and content management systems like WordPress. I'm available to help you navigate the
-different options. I've built a number of websites myself, and I'm well-versed in the technical site of websites.
+different options. I've built a number of websites myself, and I'm well-versed in the technical side of websites.
 
 If you'd like someone on your team who's knowledgable about the technical aspects of websites, even if you're planning
 to do some or most of the work on your site yourself or inhouse.
