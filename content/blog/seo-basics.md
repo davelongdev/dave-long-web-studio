@@ -12,11 +12,11 @@ SEO stands for search engine optimization.  It means optimizing your web site to
 results.  These days, at least in the US, the most important search engine by far is google, so the majority of your efforts
 when it comes to SEO for the US market should be focused on google search. 
 
-Probably the most important aspect of SEO is getting your site ranked near the top of the list of google search results.
-There are other aspects of SEO too, though, such as shaping how your business and web site information shows up in
-search results. For example, you can affect what the search result for your business actually says and how it's
-displayed on the search engine results page (SERP). You can also influence how your business or web site shows up in a
-google maps search.
+The most important aspect of SEO is doing work that results in your site ranking near the top of the list of google
+search results. There are other aspects of SEO too, though, such as shaping how your business and web site information
+shows up in search results. For example, you can affect what the search result for your business actually says and how
+it's displayed on the search engine results page (SERP). You can also influence how your business or web site shows up
+in a google maps search.
  
 ## What are the Most Important Parts of SEO?
 
@@ -28,20 +28,20 @@ The three most important components in any SEO strategy are the following:
 
 ## Writing Content for Your Site
 
-### 1 - Write High Quality Content that's Relevant to your Business and Helpful to Your Customers.
+### 1.  Write High-Quality Content that's Relevant to your Business and Helpful to Your Customers.
 
 There's no substute for good content when it comes to SEO. Google's process for ranking web sites for searches is very
 sophisticated these days. You can't just string together a bunch of keywords and expect to get great SEO results. It's
 important that a website's written content makes sense in the overall context of your site and is readable and
 meaningful to potential customers.
 
-### 2 - Cover the Topics that are Most Important to your Customers.
+### 2.  Cover the Topics that are Most Important to your Customers.
 
 Try to write about issues realating to your business that are likely to interest your potential customers. Think about
 what questions they might have regarding your business that you could try to help them with. What kinds of things might
 they be searching for answers about on google? By covering various topics relevant to your customers, you're creating
-content that google potentially use as a search result. Further, you're also demonstraiting your knowledge about your
-business and providing them with helpful information.
+content that google could potentially use as a search result. Further, you're also demonstraiting your knowledge about your
+business and providing your customers with helpful information.
 
 ## Backlinks 
 
@@ -54,7 +54,7 @@ benefit from adding links to your site on various directories and blogs.
 Meta tags are sometimes referred to as meta data, meta information, or just meta. Meta tags are elements embedded in
 your web pages that provide information to search engines and web browsers. If you're using a service like a website
 builder or a content management system (CMS) to manage your site, you should be able to manage these tags through the
-tools provided by whatever service you're using.
+tools provided by the service.
 
 The two most important meta tags for SEO are as follows:
 
@@ -64,7 +64,7 @@ The two most important meta tags for SEO are as follows:
 ### Meta Title Tag 
 
 The meta title tag is used to display the title or main topic of a web page. Search engines will use it as the
-title of search results and web browsers can use it in tabs to display the page title.
+title of search results and web browsers can use it in tabs.
 
 ### Meta Description Tag
 
