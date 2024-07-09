@@ -20,14 +20,13 @@ google maps search.
  
 ## What are the Most Important Parts of SEO?
 
-The two most important components in any SEO strategy are the following:
+The three most important components in any SEO strategy are the following:
 
 - Written Content
 - Backlinks
+- Meta Tags
 
 ## Writing Content for Your Site
-
-The two most important things to keep in mind when writing content for your site are as follows.
 
 ### 1 - Write High Quality Content that's Relevant to your Business and Helpful to Your Customers.
 
@@ -44,14 +43,47 @@ they be searching for answers about on google? By covering various topics releva
 content that google potentially use as a search result. Further, you're also demonstraiting your knowledge about your
 business and providing them with helpful information.
 
+## Backlinks 
+
+Backlinks are links to your site from other sites. They are essential to any SEO strategy. You can start the process of
+creating back links by adding links to your site on social media accounts and any other sites that you own. You can also
+benefit from adding links to your site on various directories and blogs.
+
+## Meta Tags
+
+Meta tags are sometimes referred to as meta data, meta information, or just meta. Meta tags are elements embedded in
+your web pages that provide information to search engines and web browsers. If you're using a service like a website
+builder or a content management system (CMS) to manage your site, you should be able to manage these tags through the
+tools provided by whatever service you're using.
+
+The two most important meta tags for SEO are as follows:
+
+- Meta Title
+- Meta Description
+
+### Meta Title Tag 
+
+The meta title tag is used to display the title or main topic of a web page. Search engines will use it as the
+title of search results and web browsers can use it in tabs to display the page title.
+
+### Meta Description Tag
+
+The meta description tag can be a bit broader than the title tag in terms of it's content. It should contain a brief
+summary or description of your webpage. The meta description tag is sometimtes used by search engines to display
+additional information about web pages. This information can appear below the page's meta title in search results.
+
+Crafting good meta tiles and meta descriptions is an important part of any SEO strategy.
+
 ## What Other Factors are Important for SEO?
 
 There are many different things that can help your site to rank better in google search results. Some of these include
 the following:
 
+- Headings
+- Alt Text for Images
 - Accessibility
 - Site Performance
-- Google Business Listing
+- Google Business Profile
 
 ## Should I Make a Google Business Profile?
 
@@ -88,5 +120,3 @@ There are many ways to improve your site's performance. Often, one of the best w
 images. If your images are very large, that can impact your site performance score. Often, better site performance
 scores can be obtained by using image formats that are optimized for the web or have smaller file sizes. Another way to
 improve site performance is to minimize the size of other files like video or sound files.
-
-
