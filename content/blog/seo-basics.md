@@ -8,16 +8,26 @@ categories = ['Getting Started', 'SEO', 'Website Basics', 'Search Engine Optimiz
 
 ## What is SEO?
 
-SEO stands for search engine optimization.  It means optimizing your web site to improve how it shows up in search
-results.  These days, at least in the US, the most important search engine by far is google, so the majority of your efforts
-when it comes to SEO for the US market should be focused on google search. 
+SEO stands for search engine optimization.  It means optimizing your web site to improve how it shows up in organic search
+results. Organic search results are search results that are not paid for and are different than paid search results.
+These days, at least in the US, the most important search engine by far is google, so the majority of your efforts when
+it comes to SEO for the US market should be focused on google search.
 
-The most important aspect of SEO is doing work that results in your site ranking near the top of the list of google
-search results. There are other aspects of SEO too, though, such as shaping how your business and web site information
-shows up in search results. For example, you can affect what the search result for your business actually says and how
-it's displayed on the search engine results page (SERP). You can also influence how your business or web site shows up
-in a google maps search.
- 
+The most important aspect of SEO is doing work that results in your site ranking near the top of the list of organic
+google search results. There are other aspects of SEO too, though, such as shaping how your business and web site
+information shows up in search results. For example, you can affect what the search result for your business actually
+says and how it's displayed on the search engine results page (SERP). You can also influence how your business or web
+site shows up in a google maps search.
+
+## What's the difference between SEO, PPC, and SEM?
+
+SEM stands for search engine marketing, and PPC stands for pay per click. The term SEM (or search engine marketing) is
+sometimes used more broadly to mean increasing visibility in both paid and organic (or unpaid) search results. It's also
+sometimes used to refer, either in whole or in part, to paid-for search marketing. PPC (or pay per click) is a type of
+paid-for digital advertising.
+
+A digital marketing strategy can often involve efforts to gain business by both paid and organic search.
+
 ## What are the Most Important Parts of SEO?
 
 The three most important components in any SEO strategy are the following:
@@ -28,26 +38,26 @@ The three most important components in any SEO strategy are the following:
 
 ## Writing Content for Your Site
 
-### 1.  Write High-Quality Content that's Relevant to your Business and Helpful to Your Customers.
+### 1.  Write High-Quality Content that's Relevant to your Business and Helpful to Your Customers
 
 There's no substute for good content when it comes to SEO. Google's process for ranking web sites for searches is very
 sophisticated these days. You can't just string together a bunch of keywords and expect to get great SEO results. It's
 important that a website's written content makes sense in the overall context of your site and is readable and
 meaningful to potential customers.
 
-### 2.  Cover the Topics that are Most Important to your Customers.
+### 2.  Cover the Topics that are Most Important to your Customers
 
 Try to write about issues realating to your business that are likely to interest your potential customers. Think about
 what questions they might have regarding your business that you could try to help them with. What kinds of things might
 they be searching for answers about on google? By covering various topics relevant to your customers, you're creating
-content that google could potentially use as a search result. Further, you're also demonstraiting your knowledge about your
+content that google could potentially use to return a search result. Further, you're also demonstraiting your knowledge about your
 business and providing your customers with helpful information.
 
 ## Backlinks 
 
 Backlinks are links to your site from other sites. They are essential to any SEO strategy. You can start the process of
-creating back links by adding links to your site on social media accounts and any other sites that you own. You can also
-benefit from adding links to your site on various directories and blogs.
+creating back links by adding links to your site on your social media accounts and any other sites that you own. You can
+also benefit from adding links to your site on various directories and blogs.
 
 ## Meta Tags
 
@@ -68,7 +78,7 @@ title of search results and web browsers can use it in tabs.
 
 ### Meta Description Tag
 
-The meta description tag can be a bit broader than the title tag in terms of it's content. It should contain a brief
+The meta description tag can be a bit broader than the title tag in terms of its content. It should contain a brief
 summary or description of your webpage. The meta description tag is sometimtes used by search engines to display
 additional information about web pages. This information can appear below the page's meta title in search results.
 
@@ -76,8 +86,7 @@ Crafting good meta tiles and meta descriptions is an important part of any SEO s
 
 ## What Other Factors are Important for SEO?
 
-There are many different things that can help your site to rank better in google search results. Some of these include
-the following:
+Many different things can influence your google search ranking. Some of these include the following:
 
 - Headings
 - Alt Text for Images
