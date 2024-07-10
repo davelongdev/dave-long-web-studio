@@ -23,10 +23,17 @@ site shows up in a google maps search.
 
 SEM stands for search engine marketing, and PPC stands for pay per click. The term SEM (or search engine marketing) is
 sometimes used more broadly to mean increasing visibility in both paid and organic (or unpaid) search results. It's also
-sometimes used to refer, either in whole or in part, to paid-for search marketing. PPC (or pay per click) is a type of
-paid-for digital advertising.
+sometimes used to mean paid search marketing or search marketing that's mainly focused on paid search but also includes
+organic search. PPC (or pay per click) is a type of paid-for digital advertising.
 
-A digital marketing strategy can often involve efforts to gain business by both paid and organic search.
+Paid search can be useful because google sometimes displays paid search results before or more prominantly than organic
+results. It can also yield results quickly without working on SEO. Paid search results on google show a
+'Sponsored' label, so you know that they are paid for and not organic.
+
+On the other hand, many people know that google can prioritize paid search results and that paid results are not
+necessarily going to be the best results for them. As such, they will scroll past the paid results to see what the
+organic results are. A digital marketing strategy can often involve efforts to gain business by both paid and organic
+search.
 
 ## What are the Most Important Parts of SEO?
 
