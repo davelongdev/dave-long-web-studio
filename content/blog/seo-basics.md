@@ -41,7 +41,7 @@ The three most important components in any SEO strategy are the following:
 
 - Written Content
 - Backlinks
-- Meta Tags
+- Metadata
 
 ## Writing Content for Your Site
 
@@ -66,30 +66,34 @@ Backlinks are links to your site from other sites. They are essential to any SEO
 creating back links by adding links to your site on your social media accounts and any other sites that you own. You can
 also benefit from adding links to your site on various directories and blogs.
 
-## Meta Tags
+## Metadata
 
-Meta tags are sometimes referred to as meta data, meta information, or just meta. Meta tags are elements embedded in
-your web pages that provide information to search engines and web browsers. If you're using a service like a website
-builder or a content management system (CMS) to manage your site, you should be able to manage these tags through the
-tools provided by the service.
+When people use the word 'metadata' in relatin to websites, it usually means information about a web page that's not meant to be
+rendered and displayed as part of a webpage. A website's metadata is sometimes called meta information, meta content, or
+just meta. In a webpage's structure, metadata is included in the head section, whereas the the content to be rendered and
+displayed is contained in the body section.
 
-The two most important meta tags for SEO are as follows:
+Metadata provides information to other applications such as search engines, web browsers, and social media. If you're
+using a service like a website builder or a content management system (CMS) to manage your site, you should be able to
+manage your site's metadata through the tools provided by that service.
 
-- Meta Title
-- Meta Description
+The two most important pieces of metadata for SEO are as follows:
 
-### Meta Title Tag 
+- Page Title
+- Page Description
 
-The meta title tag is used to display the title or main topic of a web page. Search engines will use it as the
+### Page Title 
+
+The page title is used to display the title or main topic of a web page. Search engines can use it as the
 title of search results and web browsers can use it in tabs.
 
-### Meta Description Tag
+### Page Description
 
-The meta description tag can be a bit broader than the title tag in terms of its content. It should contain a brief
-summary or description of your webpage. The meta description tag is sometimtes used by search engines to display
-additional information about web pages. This information can appear below the page's meta title in search results.
+The page description can be a bit broader than the page title in terms of its content. It should contain a brief
+summary or description of your webpage. The page description is sometimtes used by search engines to display
+additional information about web pages. This information can appear below the page title in search results.
 
-Crafting good meta tiles and meta descriptions is an important part of any SEO strategy.
+Crafting good page titles and page descriptions is an important part of any SEO strategy.
 
 ## What Other Factors are Important for SEO?
 
