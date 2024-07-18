@@ -129,6 +129,7 @@ ol {
 }
 
 li {
+
   /* margin-bottom: 0.5rem; */
 }
 
@@ -318,6 +319,11 @@ input:focus-visible {
 
 .dark #theme-toggle {
   color: var(--color-text-dark);
+}
+
+.toggle-text {
+  font-size: 0.9rem;
+  opacity: 0.7;
 }
 
 /* nav styles for tablet & desktop */
@@ -523,14 +529,10 @@ button:focus-visible,
 
 /* footer */
 
-.footer-business {
-  font-size: 1.15rem;
-  margin-bottom: .15rem;
-}
-
 .footer-container {
   font-size: 1rem;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -540,10 +542,13 @@ button:focus-visible,
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
+  padding-bottom: .3rem;
 }
 
-.footer-links {
-  text-align: right;
+.footer-business {
+  font-size: 1.15rem;
+  margin-bottom: .15rem;
 }
 
 .footer-copyright {
@@ -552,7 +557,30 @@ button:focus-visible,
   margin-bottom: 0;
 }
 
-.toggle-text {
-    font-size: 0.9rem;
-    opacity: 0.7;
+#mail {
+  padding-top: .5rem;
+}
+
+.footer-links {
+  text-align: center;
+}
+@media screen and (min-width: 800px) {
+  
+  .footer-container {
+    flex-direction: row;
+  }
+
+  .footer-address {
+    text-align: left;
+    padding-bottom: .5rem;
+  }
+
+  #mail {
+    padding-top: 0;
+  }
+
+  .footer-links {
+    text-align: right;
+  }
+
 }
