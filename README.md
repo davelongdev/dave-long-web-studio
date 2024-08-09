@@ -10,6 +10,6 @@ I am offering freelance web site servies such as web development and design, web
 
 ## Contact
 
-Feel free to reach out if you're interested in networking or hiring me for a project.
+Feel free to reach out if you're interested in networking or working together.
 
 davelongdev@gmail.com
