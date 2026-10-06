@@ -29,6 +29,12 @@ title = 'Dave Long Web Studio'
     weight = 20
 
   [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio"
+    weight = 25
+
+  [[menu.main]]
     identifier = "blog"
     name = "Blog"
     url = "/blog"
