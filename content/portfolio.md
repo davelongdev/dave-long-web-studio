@@ -5,7 +5,7 @@ description = "Dave Long Web Studio Portfolio: Websites I've Built and Worked On
 draft = false
 +++
 
-<br>
+<div class='portfolio'>
 
 Here are some of the websites I've built or worked on. My work has included coding, design, copy editing, and search engine optimization (SEO). Each entry below links to the live site.
 
@@ -63,4 +63,6 @@ The site for my piano lessons business. It's how most of my students find me.
     >
       Contact
     </a>
+</div>
+
 </div>

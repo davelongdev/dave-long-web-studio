@@ -80,6 +80,12 @@ p {
   text-align: center;
 }
 
+/* room above a centered closing line */
+
+p.txt-center {
+  margin-top: 2.5rem;
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -103,11 +109,24 @@ h1 {
 h2 {
   font-size: 1.8rem;
   line-height: 2.2rem;
+  margin-top: 3.5rem;
+}
+
+/* larger section headings on tablet & desktop */
+
+@media screen and (min-width: 775px) {
+
+  h2 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+
 }
 
 h3 {
   font-size: 1.6rem;
   line-height: 2rem;
+  margin-top: 2rem;
 }
 
 h4 {
@@ -324,6 +343,16 @@ input:focus-visible {
 .toggle-text {
   font-size: 0.9rem;
   opacity: 0.7;
+}
+
+/* portfolio page - each site's link sits close under its name */
+
+.portfolio h3 {
+  margin-bottom: .35rem;
+}
+
+.portfolio h3 + p {
+  margin-bottom: .6rem;
 }
 
 /* nav styles for small phones - keeps the five nav links on one line */
